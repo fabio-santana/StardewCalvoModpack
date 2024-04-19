@@ -1,0 +1,31 @@
+{
+    "Format": "2.0.0",
+    "Changes": [
+       {
+          "Action": "EditImage",
+          "Target": "Buildings/Mailbox",
+          "FromFile": "assets/mailbox_{{season}}.png"
+       },
+       {
+         "Action": "EditImage",
+         "Target": "Buildings/Log Cabin, Buildings/Beach Cabin, Buildings/Neighbor Cabin, Buildings/Plank Cabin, Buildings/Rustic Cabin, Buildings/Stone Cabin, Buildings/Trailer Cabin",
+         "FromFile": "assets/cmailbox_{{season}}.png",
+         "ToArea": { "X":64, "Y":80, "Width":16, "Height": 32},
+         "PatchMode": "Overlay",
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Buildings/Log Cabin, Buildings/Beach Cabin, Buildings/Neighbor Cabin, Buildings/Plank Cabin, Buildings/Rustic Cabin, Buildings/Stone Cabin, Buildings/Trailer Cabin",
+        "FromFile": "assets/cmailbox_{{season}}.png",
+        "ToArea": { "X":144, "Y":80, "Width":16, "Height": 32},
+        "PatchMode": "Overlay",
+     },
+     {
+        "Action": "EditImage",
+        "Target": "Buildings/Log Cabin, Buildings/Beach Cabin, Buildings/Neighbor Cabin, Buildings/Plank Cabin, Buildings/Rustic Cabin, Buildings/Stone Cabin, Buildings/Trailer Cabin",
+        "FromFile": "assets/cmailbox_{{season}}.png",
+        "ToArea": { "X":224, "Y":80, "Width":16, "Height": 32},
+        "PatchMode": "Overlay",
+     }
+    ]
+ }

@@ -1,0 +1,469 @@
+{
+
+  "Format": "2.0.0",
+  
+  "ConfigSchema": {
+	  "Fox": {
+		  "AllowValues": "FoxRed, FoxArctic, FoxBrown, FoxGray, FoxSilver",
+		  "AllowMultiple": true,
+		  "Default": "FoxRed"},
+    "MiniPig": {
+		  "AllowValues": "MiniPigPink, MiniPigBlack, MiniPigBrown, MiniPigCream",
+		  "AllowMultiple": true,
+		  "Default": "MiniPigCream"},
+    "Ferret": {
+		  "AllowValues": "FerretBrown, FerretBlack, FerretCream, FerretGray, FerretLightBrown",
+		  "AllowMultiple": true,
+		  "Default": "FerretBrown"},
+    "Hedgehog": {
+		  "AllowValues": "HedgehogBrown, HedgehogBlack, HedgehogGray",
+		  "AllowMultiple": true,
+		  "Default": "HedgehogGray"},
+    },
+	
+	
+  "Changes": [
+    //Fox
+    {
+      "LogName": "FoxRed",
+      "Action": "EditData",
+      "Target": "Data/Pets",
+	    "TargetField": [ "Dog", "Breeds" ],
+      "Entries": {
+      "Beans.PetOverhaul.FoxRed": {
+        "Id": "Beans.PetOverhaul.FoxRed",
+          "Texture": "Mods\\Beans.PetOverhaul\\FoxRed",
+          "IconTexture": "Mods\\Beans.PetOverhaul\\icons",
+          "IconSourceRect": {
+            "X": 0,
+            "Y": 0,
+            "Width": 16,
+            "Height": 16
+            },
+          "CanBeChosenAtStart": false,
+          "CanBeAdoptedFromMarnie": true,
+          "AdoptionPrice": 40000,
+          "BarkOverride": "rabbit",
+          "VoicePitch": 5.0
+          },
+        },
+      "When": { "Fox": "FoxRed" },
+    },
+    {
+      "LogName": "FoxArctic",
+      "Action": "EditData",
+      "Target": "Data/Pets",
+	    "TargetField": [ "Dog", "Breeds" ],
+      "Entries": {
+      "Beans.PetOverhaul.FoxArctic": {
+        "Id": "Beans.PetOverhaul.FoxArctic",
+          "Texture": "Mods\\Beans.PetOverhaul\\FoxArctic",
+          "IconTexture": "Mods\\Beans.PetOverhaul\\icons",
+          "IconSourceRect": {
+            "X": 16,
+            "Y": 0,
+            "Width": 16,
+            "Height": 16
+            },
+          "CanBeChosenAtStart": false,
+          "CanBeAdoptedFromMarnie": true,
+          "AdoptionPrice": 40000,
+          "BarkOverride": "rabbit",
+          "VoicePitch": 5.0
+          },
+        },
+      "When": { "Fox": "FoxArctic" },
+    },
+    {
+      "LogName": "FoxBrown",
+      "Action": "EditData",
+      "Target": "Data/Pets",
+	    "TargetField": [ "Dog", "Breeds" ],
+      "Entries": {
+      "Beans.PetOverhaul.FoxBrown": {
+        "Id": "Beans.PetOverhaul.FoxBrown",
+          "Texture": "Mods\\Beans.PetOverhaul\\FoxBrown",
+          "IconTexture": "Mods\\Beans.PetOverhaul\\icons",
+          "IconSourceRect": {
+            "X": 32,
+            "Y": 0,
+            "Width": 16,
+            "Height": 16
+            },
+          "CanBeChosenAtStart": false,
+          "CanBeAdoptedFromMarnie": true,
+          "AdoptionPrice": 40000,
+          "BarkOverride": "rabbit",
+          "VoicePitch": 5.0
+          },
+        },
+      "When": { "Fox": "FoxBrown" },
+    },
+    {
+      "LogName": "FoxGray",
+      "Action": "EditData",
+      "Target": "Data/Pets",
+	    "TargetField": [ "Dog", "Breeds" ],
+      "Entries": {
+      "Beans.PetOverhaul.FoxGray": {
+        "Id": "Beans.PetOverhaul.FoxGray",
+          "Texture": "Mods\\Beans.PetOverhaul\\FoxGray",
+          "IconTexture": "Mods\\Beans.PetOverhaul\\icons",
+          "IconSourceRect": {
+            "X": 48,
+            "Y": 0,
+            "Width": 16,
+            "Height": 16
+            },
+          "CanBeChosenAtStart": false,
+          "CanBeAdoptedFromMarnie": true,
+          "AdoptionPrice": 40000,
+          "BarkOverride": "rabbit",
+          "VoicePitch": 5.0
+          },
+        },
+      "When": { "Fox": "FoxGray" },
+    },
+    {
+      "LogName": "FoxSilver",
+      "Action": "EditData",
+      "Target": "Data/Pets",
+	    "TargetField": [ "Dog", "Breeds" ],
+      "Entries": {
+      "Beans.PetOverhaul.FoxSilver": {
+        "Id": "Beans.PetOverhaul.FoxSilver",
+          "Texture": "Mods\\Beans.PetOverhaul\\FoxSilver",
+          "IconTexture": "Mods\\Beans.PetOverhaul\\icons",
+          "IconSourceRect": {
+            "X": 64,
+            "Y": 0,
+            "Width": 16,
+            "Height": 16
+            },
+          "CanBeChosenAtStart": false,
+          "CanBeAdoptedFromMarnie": true,
+          "AdoptionPrice": 40000,
+          "BarkOverride": "rabbit",
+          "VoicePitch": 5.0
+          },
+        },
+      "When": { "Fox": "FoxSilver" },
+    },
+
+    //MiniPig
+    {
+      "LogName": "MiniPigPink",
+      "Action": "EditData",
+      "Target": "Data/Pets",
+	    "TargetField": [ "Dog", "Breeds" ],
+      "Entries": {
+      "Beans.PetOverhaul.MiniPigPink": {
+        "Id": "Beans.PetOverhaul.MiniPigPink",
+          "Texture": "Mods\\Beans.PetOverhaul\\MiniPigPink",
+          "IconTexture": "Mods\\Beans.PetOverhaul\\icons",
+          "IconSourceRect": {
+            "X": 80,
+            "Y": 0,
+            "Width": 16,
+            "Height": 16
+            },
+          "CanBeChosenAtStart": false,
+          "CanBeAdoptedFromMarnie": true,
+          "AdoptionPrice": 25000,
+          "BarkOverride": "pig",
+          "VoicePitch": 3.0
+          },
+        },
+      "When": { "MiniPig": "MiniPigPink" },
+    },
+    {
+      "LogName": "MiniPigBlack",
+      "Action": "EditData",
+      "Target": "Data/Pets",
+	    "TargetField": [ "Dog", "Breeds" ],
+      "Entries": {
+      "Beans.PetOverhaul.MiniPigBlack": {
+        "Id": "Beans.PetOverhaul.MiniPigBlack",
+          "Texture": "Mods\\Beans.PetOverhaul\\MiniPigBlack",
+          "IconTexture": "Mods\\Beans.PetOverhaul\\icons",
+          "IconSourceRect": {
+            "X": 96,
+            "Y": 0,
+            "Width": 16,
+            "Height": 16
+            },
+          "CanBeChosenAtStart": false,
+          "CanBeAdoptedFromMarnie": true,
+          "AdoptionPrice": 25000,
+          "BarkOverride": "pig",
+          "VoicePitch": 3.0
+          },
+        },
+      "When": { "MiniPig": "MiniPigBlack" },
+    },
+    {
+      "LogName": "MiniPigBrown",
+      "Action": "EditData",
+      "Target": "Data/Pets",
+	    "TargetField": [ "Dog", "Breeds" ],
+      "Entries": {
+      "Beans.PetOverhaul.MiniPigBrown": {
+        "Id": "Beans.PetOverhaul.MiniPigBrown",
+          "Texture": "Mods\\Beans.PetOverhaul\\MiniPigBrown",
+          "IconTexture": "Mods\\Beans.PetOverhaul\\icons",
+          "IconSourceRect": {
+            "X": 112,
+            "Y": 0,
+            "Width": 16,
+            "Height": 16
+            },
+          "CanBeChosenAtStart": false,
+          "CanBeAdoptedFromMarnie": true,
+          "AdoptionPrice": 25000,
+          "BarkOverride": "pig",
+          "VoicePitch": 3.0
+          },
+        },
+      "When": { "MiniPig": "MiniPigBrown" },
+    },
+    {
+      "LogName": "MiniPigCream",
+      "Action": "EditData",
+      "Target": "Data/Pets",
+	    "TargetField": [ "Dog", "Breeds" ],
+      "Entries": {
+      "Beans.PetOverhaul.MiniPigCream": {
+        "Id": "Beans.PetOverhaul.MiniPigCream",
+          "Texture": "Mods\\Beans.PetOverhaul\\MiniPigCream",
+          "IconTexture": "Mods\\Beans.PetOverhaul\\icons",
+          "IconSourceRect": {
+            "X": 128,
+            "Y": 0,
+            "Width": 16,
+            "Height": 16
+            },
+          "CanBeChosenAtStart": false,
+          "CanBeAdoptedFromMarnie": true,
+          "AdoptionPrice": 25000,
+          "BarkOverride": "pig",
+          "VoicePitch": 3.0
+          },
+        },
+      "When": { "MiniPig": "MiniPigCream" },
+    },
+
+    //Ferret
+    {
+      "LogName": "FerretBrown",
+      "Action": "EditData",
+      "Target": "Data/Pets",
+	    "TargetField": [ "Cat", "Breeds" ],
+      "Entries": {
+      "Beans.PetOverhaul.FerretBrown": {
+        "Id": "Beans.PetOverhaul.FerretBrown",
+          "Texture": "Mods\\Beans.PetOverhaul\\FerretBrown",
+          "IconTexture": "Mods\\Beans.PetOverhaul\\icons",
+          "IconSourceRect": {
+            "X": 0,
+            "Y": 16,
+            "Width": 16,
+            "Height": 16
+            },
+          "CanBeChosenAtStart": false,
+          "CanBeAdoptedFromMarnie": true,
+          "AdoptionPrice": 35000,
+          "BarkOverride": "rabbit",
+          "VoicePitch": 3.0
+          },
+        },
+      "When": { "Ferret": "FerretBrown" },
+    },
+    {
+      "LogName": "FerretBlack",
+      "Action": "EditData",
+      "Target": "Data/Pets",
+	    "TargetField": [ "Cat", "Breeds" ],
+      "Entries": {
+      "Beans.PetOverhaul.FerretBlack": {
+        "Id": "Beans.PetOverhaul.FerretBlack",
+          "Texture": "Mods\\Beans.PetOverhaul\\FerretBlack",
+          "IconTexture": "Mods\\Beans.PetOverhaul\\icons",
+          "IconSourceRect": {
+            "X": 16,
+            "Y": 16,
+            "Width": 16,
+            "Height": 16
+            },
+          "CanBeChosenAtStart": false,
+          "CanBeAdoptedFromMarnie": true,
+          "AdoptionPrice": 35000,
+          "BarkOverride": "rabbit",
+          "VoicePitch": 3.0
+          },
+        },
+      "When": { "Ferret": "FerretBlack" },
+    },
+    {
+      "LogName": "FerretCream",
+      "Action": "EditData",
+      "Target": "Data/Pets",
+	    "TargetField": [ "Cat", "Breeds" ],
+      "Entries": {
+      "Beans.PetOverhaul.FerretCream": {
+        "Id": "Beans.PetOverhaul.FerretCream",
+          "Texture": "Mods\\Beans.PetOverhaul\\FerretCream",
+          "IconTexture": "Mods\\Beans.PetOverhaul\\icons",
+          "IconSourceRect": {
+            "X": 32,
+            "Y": 16,
+            "Width": 16,
+            "Height": 16
+            },
+          "CanBeChosenAtStart": false,
+          "CanBeAdoptedFromMarnie": true,
+          "AdoptionPrice": 35000,
+          "BarkOverride": "rabbit",
+          "VoicePitch": 3.0
+          },
+        },
+      "When": { "Ferret": "FerretCream" },
+    },
+    {
+      "LogName": "FerretGray",
+      "Action": "EditData",
+      "Target": "Data/Pets",
+	    "TargetField": [ "Cat", "Breeds" ],
+      "Entries": {
+      "Beans.PetOverhaul.FerretGray": {
+        "Id": "Beans.PetOverhaul.FerretGray",
+          "Texture": "Mods\\Beans.PetOverhaul\\FerretGray",
+          "IconTexture": "Mods\\Beans.PetOverhaul\\icons",
+          "IconSourceRect": {
+            "X": 48,
+            "Y": 16,
+            "Width": 16,
+            "Height": 16
+            },
+          "CanBeChosenAtStart": false,
+          "CanBeAdoptedFromMarnie": true,
+          "AdoptionPrice": 35000,
+          "BarkOverride": "rabbit",
+          "VoicePitch": 3.0
+          },
+        },
+      "When": { "Ferret": "FerretGray" },
+    },
+    {
+      "LogName": "FerretLightBrown",
+      "Action": "EditData",
+      "Target": "Data/Pets",
+	    "TargetField": [ "Cat", "Breeds" ],
+      "Entries": {
+      "Beans.PetOverhaul.FerretLightBrown": {
+        "Id": "Beans.PetOverhaul.FerretLightBrown",
+          "Texture": "Mods\\Beans.PetOverhaul\\FerretLightBrown",
+          "IconTexture": "Mods\\Beans.PetOverhaul\\icons",
+          "IconSourceRect": {
+            "X": 64,
+            "Y": 16,
+            "Width": 16,
+            "Height": 16
+            },
+          "CanBeChosenAtStart": false,
+          "CanBeAdoptedFromMarnie": true,
+          "AdoptionPrice": 35000,
+          "BarkOverride": "rabbit",
+          "VoicePitch": 3.0
+          },
+        },
+      "When": { "Ferret": "FerretLightBrown" },
+    },
+
+    //Hedgehog
+    {
+      "LogName": "HedgehogBrown",
+      "Action": "EditData",
+      "Target": "Data/Pets",
+	    "TargetField": [ "Cat", "Breeds" ],
+      "Entries": {
+      "Beans.PetOverhaul.HedgehogBrown": {
+        "Id": "Beans.PetOverhaul.HedgehogBrown",
+          "Texture": "Mods\\Beans.PetOverhaul\\HedgehogBrown",
+          "IconTexture": "Mods\\Beans.PetOverhaul\\icons",
+          "IconSourceRect": {
+            "X": 80,
+            "Y": 16,
+            "Width": 16,
+            "Height": 16
+            },
+          "CanBeChosenAtStart": false,
+          "CanBeAdoptedFromMarnie": true,
+          "AdoptionPrice": 30000,
+          "BarkOverride": "rabbit",
+          "VoicePitch": 5.0
+          },
+        },
+      "When": { "Hedgehog": "HedgehogBrown" },
+    },
+    {
+      "LogName": "HedgehogBlack",
+      "Action": "EditData",
+      "Target": "Data/Pets",
+	    "TargetField": [ "Cat", "Breeds" ],
+      "Entries": {
+      "Beans.PetOverhaul.HedgehogBlack": {
+        "Id": "Beans.PetOverhaul.HedgehogBlack",
+          "Texture": "Mods\\Beans.PetOverhaul\\HedgehogBlack",
+          "IconTexture": "Mods\\Beans.PetOverhaul\\icons",
+          "IconSourceRect": {
+            "X": 96,
+            "Y": 16,
+            "Width": 16,
+            "Height": 16
+            },
+          "CanBeChosenAtStart": false,
+          "CanBeAdoptedFromMarnie": true,
+          "AdoptionPrice": 30000,
+          "BarkOverride": "rabbit",
+          "VoicePitch": 5.0
+          },
+        },
+      "When": { "Hedgehog": "HedgehogBlack" },
+    },
+    {
+      "LogName": "HedgehogGray",
+      "Action": "EditData",
+      "Target": "Data/Pets",
+	    "TargetField": [ "Cat", "Breeds" ],
+      "Entries": {
+      "Beans.PetOverhaul.HedgehogGray": {
+        "Id": "Beans.PetOverhaul.HedgehogGray",
+          "Texture": "Mods\\Beans.PetOverhaul\\HedgehogGray",
+          "IconTexture": "Mods\\Beans.PetOverhaul\\icons",
+          "IconSourceRect": {
+            "X": 112,
+            "Y": 16,
+            "Width": 16,
+            "Height": 16
+            },
+          "CanBeChosenAtStart": false,
+          "CanBeAdoptedFromMarnie": true,
+          "AdoptionPrice": 30000,
+          "BarkOverride": "rabbit",
+          "VoicePitch": 5.0
+          },
+        },
+      "When": { "Hedgehog": "HedgehogGray" },
+    },
+	
+	
+    //Load Images
+    {
+      "LogName": "Load images",
+      "Action": "Load",
+      "Target": "Mods\\Beans.PetOverhaul\\FoxRed, Mods\\Beans.PetOverhaul\\FoxArctic, Mods\\Beans.PetOverhaul\\FoxBrown, Mods\\Beans.PetOverhaul\\FoxGray, Mods\\Beans.PetOverhaul\\FoxSilver, Mods\\Beans.PetOverhaul\\MiniPigPink, Mods\\Beans.PetOverhaul\\MiniPigBlack, Mods\\Beans.PetOverhaul\\MiniPigBrown, Mods\\Beans.PetOverhaul\\MiniPigCream, Mods\\Beans.PetOverhaul\\FerretBrown, Mods\\Beans.PetOverhaul\\FerretBlack, Mods\\Beans.PetOverhaul\\FerretCream, Mods\\Beans.PetOverhaul\\FerretGray, Mods\\Beans.PetOverhaul\\FerretLightBrown, Mods\\Beans.PetOverhaul\\HedgehogBrown, Mods\\Beans.PetOverhaul\\HedgehogBlack, Mods\\Beans.PetOverhaul\\HedgehogGray, Mods\\Beans.PetOverhaul\\icons",
+      "FromFile": "assets/{{TargetWithoutPath}}.png"
+    }
+	
+]
+}

@@ -1,0 +1,225 @@
+{
+    "Format": "2.0.0",
+    "ConfigSchema": {
+        "Raccoon Price": {
+            "AllowValues": "",
+            "Default": "40000",
+            "Description": "{{i18n:RaccoonPrice.Description}}"
+        }
+    },
+    "Changes": [
+        {
+            "Action": "Load",
+            "Target": "Mods/skellady.RaccoonPet/Raccoon1, Mods/skellady.RaccoonPet/Raccoon2, Mods/skellady.RaccoonPet/RaccoonIcon1, Mods/skellady.RaccoonPet/RaccoonIcon2",
+            "FromFile": "Assets/{{TargetWithoutPath}}.png"
+        },
+        {
+            "LogName": "Add Raccoons",
+            "Action": "EditData",
+            "Target": "Data/Pets",
+            "Entries": {
+                "skellady.RaccoonPet.Raccoon": {
+                    "DisplayName": "{{i18n:RaccoonPet.Name}}",
+                    "BarkSound": "Raccoon",
+                    "ContentSound": "Raccoon",
+                    "AdoptionEventLocation": "Farm",
+                    "AdoptionEventId": "skellady.RP_RaccoonAdopt",
+                    "SleepOnBedChance": 0.75,
+                    "SleepNearBedChance": 0.3,
+                    "SleepOnRugChance": 0.5,
+                    "MoveSpeed": 2,
+                    "Behaviors": [
+                        {
+                            "Name": "Walk",
+                            "IsSideBehavior": false,
+                            "RandomizeDirection": true,
+                            "WalkInDirection": true,
+                            "LoopMode": "None"
+                        },
+                        /*{
+                            "Name": "Scheme",
+                            "IsSideBehavior": false,
+                            "RandomizeDirection": false,
+                            "Direction": "down",
+                            "WalkInDirection": false,
+                            "MoveSpeed": -1,
+                            "LoopMode": "Loop",
+                            "Animation": [
+                                {
+                                    "Frame": 16,
+                                    "Duration": 200,
+                                    "HitGround": false,
+                                    "Jump": false,
+                                },
+                                {
+                                    "Frame": 17,
+                                    "Duration": 200,
+                                    "HitGround": false,
+                                    "Jump": false,
+                                },
+                                {
+                                    "Frame": 18,
+                                    "Duration": 200,
+                                    "HitGround": false,
+                                    "Jump": false,
+                                },
+                                {
+                                    "Frame": 19,
+                                    "Duration": 200,
+                                    "HitGround": false,
+                                    "Jump": false,
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Flop",
+                            "IsSideBehavior": true,
+                            "RandomizeDirection": false,
+                            "WalkInDirection": false,
+                            "Animation": [
+                                {
+                                    "Frame": 24,
+                                    "Duration": 200,
+                                    "HitGround": false,
+                                    "Jump": false,
+                                },
+                                {
+                                    "Frame": 25,
+                                    "Duration": 200,
+                                    "HitGround": false,
+                                    "Jump": false,
+                                },
+                                {
+                                    "Frame": 26,
+                                    "Duration": 200,
+                                    "HitGround": false,
+                                    "Jump": false,
+                                },
+                                {
+                                    "Frame": 27,
+                                    "Duration": 200,
+                                    "HitGround": false,
+                                    "Sound": "thudStep",
+                                    "Jump": false,
+                                }
+                            ],
+                            "LoopMode": "Hold",
+                            "AnimationMinimumLoops": -1,
+                            "AnimationMaximumLoops": -1,
+                            "AnimationEndBehaviorChanges": null,
+                            "Duration": -1,
+                            "MinimumDuration": 8000,
+                            "MaximumDuration": 30000,
+                            "TimeoutBehaviorChanges": [
+                                {
+                                    "Weight": 1.0,
+                                    "OutsideOnly": false,
+                                    "UpBehavior": null,
+                                    "DownBehavior": null,
+                                    "LeftBehavior": null,
+                                    "RightBehavior": null,
+                                    "Behavior": "Walk"
+                                }
+                            ]
+                        }*/
+                    ],
+                    "GiftChance": 0.3,
+                    "Gifts": [
+                        {
+                            "MinimumFriendshipThreshold": 1000,
+                            "Weight": 1.0,
+                            "QualifiedItemID": "(O)169",
+                            "Stack": 1
+                        },
+                        {
+                            "MinimumFriendshipThreshold": 1000,
+                            "Weight": 1.0,
+                            "QualifiedItemID": "(O)171",
+                            "Stack": 1
+                        },
+                        {
+                            "MinimumFriendshipThreshold": 1000,
+                            "Weight": 0.5,
+                            "QualifiedItemID": "(O)770",
+                            "Stack": 5
+                        },
+                        {
+                            "MinimumFriendshipThreshold": 1000,
+                            "Weight": 0.5,
+                            "QualifiedItemID": "(O)330",
+                            "Stack": 5
+                        },
+                        {
+                            "MinimumFriendshipThreshold": 1000,
+                            "Weight": 0.2,
+                            "QualifiedItemID": "(O)766",
+                            "Stack": 2
+                        },
+                        {
+                            "MinimumFriendshipThreshold": 1000,
+                            "Weight": 0.1,
+                            "QualifiedItemID": "(O)424",
+                            "Stack": 1
+                        },
+                        {
+                            "MinimumFriendshipThreshold": 1000,
+                            "Weight": 0.05,
+                            "QualifiedItemID": "(O)446",
+                            "Stack": 1
+                        },
+                        {
+                            "MinimumFriendshipThreshold": 1000,
+                            "Weight": 0.04,
+                            "QualifiedItemID": "(O)347",
+                            "Stack": 5
+                        },
+                        {
+                            "MinimumFriendshipThreshold": 1000,
+                            "Weight": 0.05,
+                            "QualifiedItemID": "(O)444",
+                            "Stack": 1
+                        }
+                    ],
+                    "Breeds": [
+                        {
+                            "Id": "skellady.RaccoonPet.Raccoon1",
+                            "Texture": "Mods\\skellady.RaccoonPet\\Raccoon1",
+                            "IconTexture": "Mods\\skellady.RaccoonPet\\RaccoonIcon1",
+                            "IconSourceRect": {
+                                "X": 0,
+                                "Y": 0,
+                                "Width": 16,
+                                "Height": 16
+                            },
+                            "CanBeChosenAtStart": true,
+                            "CanBeAdoptedFromMarnie": true,
+                            "AdoptionPrice": "{{Raccoon Price}}"
+                        },
+                        {
+                            "Id": "skellady.RaccoonPet.Raccoon2",
+                            "Texture": "Mods\\skellady.RaccoonPet\\Raccoon2",
+                            "IconTexture": "Mods\\skellady.RaccoonPet\\RaccoonIcon2",
+                            "IconSourceRect": {
+                                "X": 0,
+                                "Y": 0,
+                                "Width": 16,
+                                "Height": 16
+                            },
+                            "CanBeChosenAtStart": true,
+                            "CanBeAdoptedFromMarnie": true,
+                            "AdoptionPrice": "{{Raccoon Price}}"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Add Adoption Event",
+            "Action": "EditData",
+            "Target": "Data/Events/Farm",
+            "Entries": {
+                "skellady.RP_RaccoonAdopt/m 1000/t 600 930/d Mon Tue Thu Sat Sun/w sunny/H": "continue/64 15/farmer 64 15 2 Marnie 65 16 0 pet 63 16 2/skippable/faceDirection PetActor 2/pause 500/animate PetActor false false 120 16 17 18 18/pause 480/animate PetActor false true 120 18/pause 2000/speak Marnie \"{{i18n:RaccoonAdopt.01}}\"/faceDirection Marnie 3/pause 400/showFrame PetActor 18/playPetSound Raccoon/pause 1200/faceDirection Marnie 0/speak Marnie \"{{i18n:RaccoonAdopt.02}}\"/showFrame PetActor 19/pause 500/showFrame PetActor 18/playPetSound Raccoon/shake PetActor 150/pause 1500/speak Marnie \"{{i18n:RaccoonAdopt.03}}\"/catQuestion/pause 1000/faceDirection Marnie 3/speak Marnie \"{{i18n:RaccoonAdopt.04}}\"/pause 500/showFrame PetActor 19/shake PetActor 100/playPetSound Raccoon/pause 800/animate PetActor false false 120 20 21 22 23 21 22 23 21 22 23 21 22 23 21 22 23 21 22 23 21 22 23/pause 200/globalFade/viewport -1000 -1000/end",
+            }
+        }
+    ]
+}

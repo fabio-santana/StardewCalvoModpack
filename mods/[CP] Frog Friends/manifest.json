@@ -1,0 +1,11 @@
+{
+    "Name": "Frog Friends",
+    "Author": "neuralwiles",
+    "Version": "2.3.0",
+    "Description": "Adds a variety of frog friends as coop animals. Created for SDV 1.6.",
+    "UniqueID": "neuralwiles.FrogFriends",
+    "UpdateKeys": [ "Nexus:20657" ],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

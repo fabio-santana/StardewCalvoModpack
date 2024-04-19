@@ -1,0 +1,19 @@
+{"Format": "2.0.0",
+  
+  "ConfigSchema": {
+    "Height": {
+		  "AllowValues": "tall, short",
+		  "AllowMultiple": false,
+		  "AllowBlank": false,
+		  "Default": "Short",
+		  "Description": "Choose the height of your silos. Will default to short."},
+    },
+
+    "Changes": [
+       {
+          "Action": "EditImage",
+          "Target": "Buildings/Silo",
+          "FromFile": "assets/{{Height}}silo_{{season}}.png",
+       }
+    ]
+ }

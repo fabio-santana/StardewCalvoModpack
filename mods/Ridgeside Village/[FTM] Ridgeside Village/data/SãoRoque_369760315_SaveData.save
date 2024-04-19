@@ -1,0 +1,2648 @@
+{
+  "WeatherForYesterday": "Rain",
+  "LNOSCounter": {
+    "RSV Summit Farm Initial Debris": 1,
+    "RSV Summit Farm large objects": 1
+  },
+  "ExistingObjectLocations": {},
+  "SavedObjects": [
+    {
+      "MapName": "Custom_Ridgeside_SummitFarm",
+      "Name": null,
+      "Tile": "56, 69",
+      "Type": "ResourceClump",
+      "ID": "602",
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_SummitFarm",
+      "Name": null,
+      "Tile": "87, 66",
+      "Type": "ResourceClump",
+      "ID": "672",
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_SummitFarm",
+      "Name": null,
+      "Tile": "21, 77",
+      "Type": "ResourceClump",
+      "ID": "672",
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_SummitFarm",
+      "Name": null,
+      "Tile": "23, 44",
+      "Type": "ResourceClump",
+      "ID": "672",
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_SummitFarm",
+      "Name": null,
+      "Tile": "64, 45",
+      "Type": "ResourceClump",
+      "ID": "602",
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_SummitFarm",
+      "Name": null,
+      "Tile": "13, 77",
+      "Type": "ResourceClump",
+      "ID": "602",
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_SummitFarm",
+      "Name": null,
+      "Tile": "88, 62",
+      "Type": "ResourceClump",
+      "ID": "602",
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_SummitFarm",
+      "Name": null,
+      "Tile": "87, 58",
+      "Type": "ResourceClump",
+      "ID": "672",
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_SummitFarm",
+      "Name": null,
+      "Tile": "60, 44",
+      "Type": "ResourceClump",
+      "ID": "672",
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_SummitFarm",
+      "Name": null,
+      "Tile": "71, 47",
+      "Type": "ResourceClump",
+      "ID": "672",
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_SummitFarm",
+      "Name": null,
+      "Tile": "28, 74",
+      "Type": "ResourceClump",
+      "ID": "602",
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_SummitFarm",
+      "Name": "295",
+      "Tile": "31, 76",
+      "Type": "Forage",
+      "ID": "295",
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_SummitFarm",
+      "Name": "786",
+      "Tile": "87, 56",
+      "Type": "Forage",
+      "ID": "786",
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_SummitFarm",
+      "Name": "343",
+      "Tile": "23, 78",
+      "Type": "Forage",
+      "ID": "343",
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_SummitFarm",
+      "Name": "450",
+      "Tile": "36, 38",
+      "Type": "Forage",
+      "ID": "450",
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_SummitFarm",
+      "Name": "343",
+      "Tile": "45, 69",
+      "Type": "Forage",
+      "ID": "343",
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_SummitFarm",
+      "Name": "678",
+      "Tile": "46, 70",
+      "Type": "Forage",
+      "ID": "678",
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_SummitFarm",
+      "Name": "295",
+      "Tile": "57, 39",
+      "Type": "Forage",
+      "ID": "295",
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_SummitFarm",
+      "Name": "343",
+      "Tile": "43, 73",
+      "Type": "Forage",
+      "ID": "343",
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_SummitFarm",
+      "Name": "295",
+      "Tile": "58, 36",
+      "Type": "Forage",
+      "ID": "295",
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_SummitFarm",
+      "Name": "295",
+      "Tile": "52, 73",
+      "Type": "Forage",
+      "ID": "295",
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_SummitFarm",
+      "Name": "343",
+      "Tile": "33, 77",
+      "Type": "Forage",
+      "ID": "343",
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_SummitFarm",
+      "Name": "295",
+      "Tile": "86, 61",
+      "Type": "Forage",
+      "ID": "295",
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RSVSpiritRealm",
+      "Name": null,
+      "Tile": "16, 33",
+      "Type": "Monster",
+      "ID": -27,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": {
+        "MonsterName": "shadow brute",
+        "Settings": {
+          "SpawnWeight": 1,
+          "HP": 700,
+          "Damage": 50,
+          "SeesPlayersAtSpawn": false,
+          "DodgeChance": 10,
+          "RelatedSkill": "Combat",
+          "Sprite": "Characters/Monsters/RSVBeast3",
+          "EXP": 26,
+          "Loot": [
+            {
+              "MapName": null,
+              "Name": "Spiritual Essence",
+              "Tile": "0, 0",
+              "Type": 0,
+              "ID": "Rafseazz.RSVCP_Spiritual_Essence",
+              "DaysUntilExpire": null,
+              "SpawnTime": 600,
+              "ConfigItem": null,
+              "MonType": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "MapName": "Custom_Ridgeside_RSVSpiritRealm",
+      "Name": null,
+      "Tile": "46, 22",
+      "Type": "Monster",
+      "ID": -28,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": {
+        "MonsterName": "shadow brute",
+        "Settings": {
+          "SpawnWeight": 1,
+          "HP": 550,
+          "Damage": 35,
+          "SeesPlayersAtSpawn": false,
+          "DodgeChance": 10,
+          "RelatedSkill": "Combat",
+          "Sprite": "Characters/Monsters/RSVBeast2",
+          "EXP": 20,
+          "Loot": [
+            {
+              "MapName": null,
+              "Name": "Spiritual Essence",
+              "Tile": "0, 0",
+              "Type": 0,
+              "ID": "Rafseazz.RSVCP_Spiritual_Essence",
+              "DaysUntilExpire": null,
+              "SpawnTime": 600,
+              "ConfigItem": null,
+              "MonType": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "MapName": "Custom_Ridgeside_RSVSpiritRealm",
+      "Name": null,
+      "Tile": "11, 30",
+      "Type": "Monster",
+      "ID": -29,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": {
+        "MonsterName": "shadow brute",
+        "Settings": {
+          "SpawnWeight": 4,
+          "HP": 400,
+          "Damage": 15,
+          "SeesPlayersAtSpawn": false,
+          "DodgeChance": 10,
+          "RelatedSkill": "Combat",
+          "Sprite": "Characters/Monsters/RSVBeast1",
+          "EXP": 15,
+          "Loot": [
+            {
+              "MapName": null,
+              "Name": "Spiritual Essence",
+              "Tile": "0, 0",
+              "Type": 0,
+              "ID": "Rafseazz.RSVCP_Spiritual_Essence",
+              "DaysUntilExpire": null,
+              "SpawnTime": 600,
+              "ConfigItem": null,
+              "MonType": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "MapName": "Custom_Ridgeside_RSVSpiritRealm",
+      "Name": null,
+      "Tile": "3, 79",
+      "Type": "Monster",
+      "ID": -30,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": {
+        "MonsterName": "shadow brute",
+        "Settings": {
+          "SpawnWeight": 4,
+          "HP": 400,
+          "Damage": 15,
+          "SeesPlayersAtSpawn": false,
+          "DodgeChance": 10,
+          "RelatedSkill": "Combat",
+          "Sprite": "Characters/Monsters/RSVBeast1",
+          "EXP": 15,
+          "Loot": [
+            {
+              "MapName": null,
+              "Name": "Spiritual Essence",
+              "Tile": "0, 0",
+              "Type": 0,
+              "ID": "Rafseazz.RSVCP_Spiritual_Essence",
+              "DaysUntilExpire": null,
+              "SpawnTime": 600,
+              "ConfigItem": null,
+              "MonType": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "MapName": "Custom_Ridgeside_RSVSpiritRealm",
+      "Name": null,
+      "Tile": "84, 72",
+      "Type": "Monster",
+      "ID": -31,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": {
+        "MonsterName": "shadow brute",
+        "Settings": {
+          "SpawnWeight": 4,
+          "HP": 400,
+          "Damage": 15,
+          "SeesPlayersAtSpawn": false,
+          "DodgeChance": 10,
+          "RelatedSkill": "Combat",
+          "Sprite": "Characters/Monsters/RSVBeast1",
+          "EXP": 15,
+          "Loot": [
+            {
+              "MapName": null,
+              "Name": "Spiritual Essence",
+              "Tile": "0, 0",
+              "Type": 0,
+              "ID": "Rafseazz.RSVCP_Spiritual_Essence",
+              "DaysUntilExpire": null,
+              "SpawnTime": 600,
+              "ConfigItem": null,
+              "MonType": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "MapName": "Custom_Ridgeside_RSVSpiritRealm",
+      "Name": null,
+      "Tile": "57, 28",
+      "Type": "Monster",
+      "ID": -32,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": {
+        "MonsterName": "shadow brute",
+        "Settings": {
+          "SpawnWeight": 4,
+          "HP": 400,
+          "Damage": 15,
+          "SeesPlayersAtSpawn": false,
+          "DodgeChance": 10,
+          "RelatedSkill": "Combat",
+          "Sprite": "Characters/Monsters/RSVBeast1",
+          "EXP": 15,
+          "Loot": [
+            {
+              "MapName": null,
+              "Name": "Spiritual Essence",
+              "Tile": "0, 0",
+              "Type": 0,
+              "ID": "Rafseazz.RSVCP_Spiritual_Essence",
+              "DaysUntilExpire": null,
+              "SpawnTime": 600,
+              "ConfigItem": null,
+              "MonType": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "MapName": "Custom_Ridgeside_RSVSpiritRealm",
+      "Name": null,
+      "Tile": "58, 78",
+      "Type": "Monster",
+      "ID": -33,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": {
+        "MonsterName": "shadow brute",
+        "Settings": {
+          "SpawnWeight": 4,
+          "HP": 400,
+          "Damage": 15,
+          "SeesPlayersAtSpawn": false,
+          "DodgeChance": 10,
+          "RelatedSkill": "Combat",
+          "Sprite": "Characters/Monsters/RSVBeast1",
+          "EXP": 15,
+          "Loot": [
+            {
+              "MapName": null,
+              "Name": "Spiritual Essence",
+              "Tile": "0, 0",
+              "Type": 0,
+              "ID": "Rafseazz.RSVCP_Spiritual_Essence",
+              "DaysUntilExpire": null,
+              "SpawnTime": 600,
+              "ConfigItem": null,
+              "MonType": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "MapName": "Custom_Ridgeside_RSVSpiritRealm",
+      "Name": null,
+      "Tile": "94, 84",
+      "Type": "Monster",
+      "ID": -34,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": {
+        "MonsterName": "shadow brute",
+        "Settings": {
+          "SpawnWeight": 1,
+          "HP": 700,
+          "Damage": 50,
+          "SeesPlayersAtSpawn": false,
+          "DodgeChance": 10,
+          "RelatedSkill": "Combat",
+          "Sprite": "Characters/Monsters/RSVBeast3",
+          "EXP": 26,
+          "Loot": [
+            {
+              "MapName": null,
+              "Name": "Spiritual Essence",
+              "Tile": "0, 0",
+              "Type": 0,
+              "ID": "Rafseazz.RSVCP_Spiritual_Essence",
+              "DaysUntilExpire": null,
+              "SpawnTime": 600,
+              "ConfigItem": null,
+              "MonType": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "MapName": "Custom_Ridgeside_RSVSpiritRealm",
+      "Name": null,
+      "Tile": "50, 11",
+      "Type": "Monster",
+      "ID": -35,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": {
+        "MonsterName": "shadow brute",
+        "Settings": {
+          "SpawnWeight": 4,
+          "HP": 400,
+          "Damage": 15,
+          "SeesPlayersAtSpawn": false,
+          "DodgeChance": 10,
+          "RelatedSkill": "Combat",
+          "Sprite": "Characters/Monsters/RSVBeast1",
+          "EXP": 15,
+          "Loot": [
+            {
+              "MapName": null,
+              "Name": "Spiritual Essence",
+              "Tile": "0, 0",
+              "Type": 0,
+              "ID": "Rafseazz.RSVCP_Spiritual_Essence",
+              "DaysUntilExpire": null,
+              "SpawnTime": 600,
+              "ConfigItem": null,
+              "MonType": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "MapName": "Custom_Ridgeside_RSVSpiritRealm",
+      "Name": null,
+      "Tile": "68, 62",
+      "Type": "Monster",
+      "ID": -36,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": {
+        "MonsterName": "shadow brute",
+        "Settings": {
+          "SpawnWeight": 1,
+          "HP": 700,
+          "Damage": 50,
+          "SeesPlayersAtSpawn": false,
+          "DodgeChance": 10,
+          "RelatedSkill": "Combat",
+          "Sprite": "Characters/Monsters/RSVBeast3",
+          "EXP": 26,
+          "Loot": [
+            {
+              "MapName": null,
+              "Name": "Spiritual Essence",
+              "Tile": "0, 0",
+              "Type": 0,
+              "ID": "Rafseazz.RSVCP_Spiritual_Essence",
+              "DaysUntilExpire": null,
+              "SpawnTime": 600,
+              "ConfigItem": null,
+              "MonType": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "MapName": "Custom_Ridgeside_RSVSpiritRealm",
+      "Name": null,
+      "Tile": "35, 12",
+      "Type": "Monster",
+      "ID": -37,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": {
+        "MonsterName": "shadow brute",
+        "Settings": {
+          "SpawnWeight": 4,
+          "HP": 400,
+          "Damage": 15,
+          "SeesPlayersAtSpawn": false,
+          "DodgeChance": 10,
+          "RelatedSkill": "Combat",
+          "Sprite": "Characters/Monsters/RSVBeast1",
+          "EXP": 15,
+          "Loot": [
+            {
+              "MapName": null,
+              "Name": "Spiritual Essence",
+              "Tile": "0, 0",
+              "Type": 0,
+              "ID": "Rafseazz.RSVCP_Spiritual_Essence",
+              "DaysUntilExpire": null,
+              "SpawnTime": 600,
+              "ConfigItem": null,
+              "MonType": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "MapName": "Custom_Ridgeside_RSVSpiritRealm",
+      "Name": null,
+      "Tile": "34, 70",
+      "Type": "Monster",
+      "ID": -38,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": {
+        "MonsterName": "shadow brute",
+        "Settings": {
+          "SpawnWeight": 1,
+          "HP": 550,
+          "Damage": 35,
+          "SeesPlayersAtSpawn": false,
+          "DodgeChance": 10,
+          "RelatedSkill": "Combat",
+          "Sprite": "Characters/Monsters/RSVBeast2",
+          "EXP": 20,
+          "Loot": [
+            {
+              "MapName": null,
+              "Name": "Spiritual Essence",
+              "Tile": "0, 0",
+              "Type": 0,
+              "ID": "Rafseazz.RSVCP_Spiritual_Essence",
+              "DaysUntilExpire": null,
+              "SpawnTime": 600,
+              "ConfigItem": null,
+              "MonType": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "MapName": "Custom_Ridgeside_RSVSpiritRealm",
+      "Name": null,
+      "Tile": "67, 44",
+      "Type": "Monster",
+      "ID": -39,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": {
+        "MonsterName": "shadow brute",
+        "Settings": {
+          "SpawnWeight": 4,
+          "HP": 400,
+          "Damage": 15,
+          "SeesPlayersAtSpawn": false,
+          "DodgeChance": 10,
+          "RelatedSkill": "Combat",
+          "Sprite": "Characters/Monsters/RSVBeast1",
+          "EXP": 15,
+          "Loot": [
+            {
+              "MapName": null,
+              "Name": "Spiritual Essence",
+              "Tile": "0, 0",
+              "Type": 0,
+              "ID": "Rafseazz.RSVCP_Spiritual_Essence",
+              "DaysUntilExpire": null,
+              "SpawnTime": 600,
+              "ConfigItem": null,
+              "MonType": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "MapName": "Custom_Ridgeside_RSVSpiritRealm",
+      "Name": null,
+      "Tile": "94, 97",
+      "Type": "Monster",
+      "ID": -40,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": {
+        "MonsterName": "shadow brute",
+        "Settings": {
+          "SpawnWeight": 4,
+          "HP": 400,
+          "Damage": 15,
+          "SeesPlayersAtSpawn": false,
+          "DodgeChance": 10,
+          "RelatedSkill": "Combat",
+          "Sprite": "Characters/Monsters/RSVBeast1",
+          "EXP": 15,
+          "Loot": [
+            {
+              "MapName": null,
+              "Name": "Spiritual Essence",
+              "Tile": "0, 0",
+              "Type": 0,
+              "ID": "Rafseazz.RSVCP_Spiritual_Essence",
+              "DaysUntilExpire": null,
+              "SpawnTime": 600,
+              "ConfigItem": null,
+              "MonType": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "MapName": "Custom_Ridgeside_RSVSpiritRealm",
+      "Name": null,
+      "Tile": "2, 80",
+      "Type": "Monster",
+      "ID": -41,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": {
+        "MonsterName": "shadow brute",
+        "Settings": {
+          "SpawnWeight": 4,
+          "HP": 400,
+          "Damage": 15,
+          "SeesPlayersAtSpawn": false,
+          "DodgeChance": 10,
+          "RelatedSkill": "Combat",
+          "Sprite": "Characters/Monsters/RSVBeast1",
+          "EXP": 15,
+          "Loot": [
+            {
+              "MapName": null,
+              "Name": "Spiritual Essence",
+              "Tile": "0, 0",
+              "Type": 0,
+              "ID": "Rafseazz.RSVCP_Spiritual_Essence",
+              "DaysUntilExpire": null,
+              "SpawnTime": 600,
+              "ConfigItem": null,
+              "MonType": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "MapName": "Custom_Ridgeside_RSVSpiritRealm",
+      "Name": null,
+      "Tile": "72, 61",
+      "Type": "Monster",
+      "ID": -42,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": {
+        "MonsterName": "shadow brute",
+        "Settings": {
+          "SpawnWeight": 4,
+          "HP": 400,
+          "Damage": 15,
+          "SeesPlayersAtSpawn": false,
+          "DodgeChance": 10,
+          "RelatedSkill": "Combat",
+          "Sprite": "Characters/Monsters/RSVBeast1",
+          "EXP": 15,
+          "Loot": [
+            {
+              "MapName": null,
+              "Name": "Spiritual Essence",
+              "Tile": "0, 0",
+              "Type": 0,
+              "ID": "Rafseazz.RSVCP_Spiritual_Essence",
+              "DaysUntilExpire": null,
+              "SpawnTime": 600,
+              "ConfigItem": null,
+              "MonType": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "MapName": "Custom_Ridgeside_RSVSpiritRealm",
+      "Name": null,
+      "Tile": "28, 35",
+      "Type": "Monster",
+      "ID": -43,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": {
+        "MonsterName": "shadow brute",
+        "Settings": {
+          "SpawnWeight": 4,
+          "HP": 400,
+          "Damage": 15,
+          "SeesPlayersAtSpawn": false,
+          "DodgeChance": 10,
+          "RelatedSkill": "Combat",
+          "Sprite": "Characters/Monsters/RSVBeast1",
+          "EXP": 15,
+          "Loot": [
+            {
+              "MapName": null,
+              "Name": "Spiritual Essence",
+              "Tile": "0, 0",
+              "Type": 0,
+              "ID": "Rafseazz.RSVCP_Spiritual_Essence",
+              "DaysUntilExpire": null,
+              "SpawnTime": 600,
+              "ConfigItem": null,
+              "MonType": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "MapName": "Custom_Ridgeside_RSVSpiritRealm",
+      "Name": null,
+      "Tile": "55, 13",
+      "Type": "Monster",
+      "ID": -44,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": {
+        "MonsterName": "shadow brute",
+        "Settings": {
+          "SpawnWeight": 1,
+          "HP": 550,
+          "Damage": 35,
+          "SeesPlayersAtSpawn": false,
+          "DodgeChance": 10,
+          "RelatedSkill": "Combat",
+          "Sprite": "Characters/Monsters/RSVBeast2",
+          "EXP": 20,
+          "Loot": [
+            {
+              "MapName": null,
+              "Name": "Spiritual Essence",
+              "Tile": "0, 0",
+              "Type": 0,
+              "ID": "Rafseazz.RSVCP_Spiritual_Essence",
+              "DaysUntilExpire": null,
+              "SpawnTime": 600,
+              "ConfigItem": null,
+              "MonType": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "MapName": "Custom_Ridgeside_RSVSpiritRealm",
+      "Name": null,
+      "Tile": "8, 72",
+      "Type": "Monster",
+      "ID": -45,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": {
+        "MonsterName": "shadow brute",
+        "Settings": {
+          "SpawnWeight": 1,
+          "HP": 700,
+          "Damage": 50,
+          "SeesPlayersAtSpawn": false,
+          "DodgeChance": 10,
+          "RelatedSkill": "Combat",
+          "Sprite": "Characters/Monsters/RSVBeast3",
+          "EXP": 26,
+          "Loot": [
+            {
+              "MapName": null,
+              "Name": "Spiritual Essence",
+              "Tile": "0, 0",
+              "Type": 0,
+              "ID": "Rafseazz.RSVCP_Spiritual_Essence",
+              "DaysUntilExpire": null,
+              "SpawnTime": 600,
+              "ConfigItem": null,
+              "MonType": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "MapName": "Custom_Ridgeside_RSVSpiritRealm",
+      "Name": null,
+      "Tile": "13, 87",
+      "Type": "Monster",
+      "ID": -46,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": {
+        "MonsterName": "shadow brute",
+        "Settings": {
+          "SpawnWeight": 1,
+          "HP": 700,
+          "Damage": 50,
+          "SeesPlayersAtSpawn": false,
+          "DodgeChance": 10,
+          "RelatedSkill": "Combat",
+          "Sprite": "Characters/Monsters/RSVBeast3",
+          "EXP": 26,
+          "Loot": [
+            {
+              "MapName": null,
+              "Name": "Spiritual Essence",
+              "Tile": "0, 0",
+              "Type": 0,
+              "ID": "Rafseazz.RSVCP_Spiritual_Essence",
+              "DaysUntilExpire": null,
+              "SpawnTime": 600,
+              "ConfigItem": null,
+              "MonType": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "MapName": "Custom_Ridgeside_RSVSpiritRealm",
+      "Name": null,
+      "Tile": "42, 62",
+      "Type": "Monster",
+      "ID": -47,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": {
+        "MonsterName": "shadow brute",
+        "Settings": {
+          "SpawnWeight": 4,
+          "HP": 400,
+          "Damage": 15,
+          "SeesPlayersAtSpawn": false,
+          "DodgeChance": 10,
+          "RelatedSkill": "Combat",
+          "Sprite": "Characters/Monsters/RSVBeast1",
+          "EXP": 15,
+          "Loot": [
+            {
+              "MapName": null,
+              "Name": "Spiritual Essence",
+              "Tile": "0, 0",
+              "Type": 0,
+              "ID": "Rafseazz.RSVCP_Spiritual_Essence",
+              "DaysUntilExpire": null,
+              "SpawnTime": 600,
+              "ConfigItem": null,
+              "MonType": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "MapName": "Custom_Ridgeside_RSVSpiritRealm",
+      "Name": null,
+      "Tile": "90, 80",
+      "Type": "Monster",
+      "ID": -48,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": {
+        "MonsterName": "shadow brute",
+        "Settings": {
+          "SpawnWeight": 4,
+          "HP": 400,
+          "Damage": 15,
+          "SeesPlayersAtSpawn": false,
+          "DodgeChance": 10,
+          "RelatedSkill": "Combat",
+          "Sprite": "Characters/Monsters/RSVBeast1",
+          "EXP": 15,
+          "Loot": [
+            {
+              "MapName": null,
+              "Name": "Spiritual Essence",
+              "Tile": "0, 0",
+              "Type": 0,
+              "ID": "Rafseazz.RSVCP_Spiritual_Essence",
+              "DaysUntilExpire": null,
+              "SpawnTime": 600,
+              "ConfigItem": null,
+              "MonType": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "MapName": "Custom_Ridgeside_RSVSpiritRealm",
+      "Name": null,
+      "Tile": "49, 88",
+      "Type": "Monster",
+      "ID": -49,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": {
+        "MonsterName": "shadow brute",
+        "Settings": {
+          "SpawnWeight": 4,
+          "HP": 400,
+          "Damage": 15,
+          "SeesPlayersAtSpawn": false,
+          "DodgeChance": 10,
+          "RelatedSkill": "Combat",
+          "Sprite": "Characters/Monsters/RSVBeast1",
+          "EXP": 15,
+          "Loot": [
+            {
+              "MapName": null,
+              "Name": "Spiritual Essence",
+              "Tile": "0, 0",
+              "Type": 0,
+              "ID": "Rafseazz.RSVCP_Spiritual_Essence",
+              "DaysUntilExpire": null,
+              "SpawnTime": 600,
+              "ConfigItem": null,
+              "MonType": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "MapName": "Custom_Ridgeside_RSVSpiritRealm",
+      "Name": null,
+      "Tile": "72, 76",
+      "Type": "Monster",
+      "ID": -50,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": {
+        "MonsterName": "shadow brute",
+        "Settings": {
+          "SpawnWeight": 4,
+          "HP": 400,
+          "Damage": 15,
+          "SeesPlayersAtSpawn": false,
+          "DodgeChance": 10,
+          "RelatedSkill": "Combat",
+          "Sprite": "Characters/Monsters/RSVBeast1",
+          "EXP": 15,
+          "Loot": [
+            {
+              "MapName": null,
+              "Name": "Spiritual Essence",
+              "Tile": "0, 0",
+              "Type": 0,
+              "ID": "Rafseazz.RSVCP_Spiritual_Essence",
+              "DaysUntilExpire": null,
+              "SpawnTime": 600,
+              "ConfigItem": null,
+              "MonType": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "MapName": "Custom_Ridgeside_RSVSpiritRealm",
+      "Name": null,
+      "Tile": "42, 85",
+      "Type": "Monster",
+      "ID": -51,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": {
+        "MonsterName": "shadow brute",
+        "Settings": {
+          "SpawnWeight": 4,
+          "HP": 400,
+          "Damage": 15,
+          "SeesPlayersAtSpawn": false,
+          "DodgeChance": 10,
+          "RelatedSkill": "Combat",
+          "Sprite": "Characters/Monsters/RSVBeast1",
+          "EXP": 15,
+          "Loot": [
+            {
+              "MapName": null,
+              "Name": "Spiritual Essence",
+              "Tile": "0, 0",
+              "Type": 0,
+              "ID": "Rafseazz.RSVCP_Spiritual_Essence",
+              "DaysUntilExpire": null,
+              "SpawnTime": 600,
+              "ConfigItem": null,
+              "MonType": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "MapName": "Custom_Ridgeside_RSVSpiritRealm",
+      "Name": null,
+      "Tile": "63, 24",
+      "Type": "Monster",
+      "ID": -52,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": {
+        "MonsterName": "shadow brute",
+        "Settings": {
+          "SpawnWeight": 4,
+          "HP": 400,
+          "Damage": 15,
+          "SeesPlayersAtSpawn": false,
+          "DodgeChance": 10,
+          "RelatedSkill": "Combat",
+          "Sprite": "Characters/Monsters/RSVBeast1",
+          "EXP": 15,
+          "Loot": [
+            {
+              "MapName": null,
+              "Name": "Spiritual Essence",
+              "Tile": "0, 0",
+              "Type": 0,
+              "ID": "Rafseazz.RSVCP_Spiritual_Essence",
+              "DaysUntilExpire": null,
+              "SpawnTime": 600,
+              "ConfigItem": null,
+              "MonType": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "MapName": "Custom_Ridgeside_RSVSpiritRealm",
+      "Name": null,
+      "Tile": "71, 52",
+      "Type": "Monster",
+      "ID": -53,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": {
+        "MonsterName": "shadow brute",
+        "Settings": {
+          "SpawnWeight": 4,
+          "HP": 400,
+          "Damage": 15,
+          "SeesPlayersAtSpawn": false,
+          "DodgeChance": 10,
+          "RelatedSkill": "Combat",
+          "Sprite": "Characters/Monsters/RSVBeast1",
+          "EXP": 15,
+          "Loot": [
+            {
+              "MapName": null,
+              "Name": "Spiritual Essence",
+              "Tile": "0, 0",
+              "Type": 0,
+              "ID": "Rafseazz.RSVCP_Spiritual_Essence",
+              "DaysUntilExpire": null,
+              "SpawnTime": 600,
+              "ConfigItem": null,
+              "MonType": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "MapName": "Custom_Ridgeside_RSVSpiritRealm",
+      "Name": null,
+      "Tile": "17, 35",
+      "Type": "Monster",
+      "ID": -54,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": {
+        "MonsterName": "shadow brute",
+        "Settings": {
+          "SpawnWeight": 1,
+          "HP": 700,
+          "Damage": 50,
+          "SeesPlayersAtSpawn": false,
+          "DodgeChance": 10,
+          "RelatedSkill": "Combat",
+          "Sprite": "Characters/Monsters/RSVBeast3",
+          "EXP": 26,
+          "Loot": [
+            {
+              "MapName": null,
+              "Name": "Spiritual Essence",
+              "Tile": "0, 0",
+              "Type": 0,
+              "ID": "Rafseazz.RSVCP_Spiritual_Essence",
+              "DaysUntilExpire": null,
+              "SpawnTime": 600,
+              "ConfigItem": null,
+              "MonType": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "MapName": "Custom_Ridgeside_RSVSpiritRealm",
+      "Name": null,
+      "Tile": "44, 22",
+      "Type": "Monster",
+      "ID": -55,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": {
+        "MonsterName": "shadow brute",
+        "Settings": {
+          "SpawnWeight": 1,
+          "HP": 700,
+          "Damage": 50,
+          "SeesPlayersAtSpawn": false,
+          "DodgeChance": 10,
+          "RelatedSkill": "Combat",
+          "Sprite": "Characters/Monsters/RSVBeast3",
+          "EXP": 26,
+          "Loot": [
+            {
+              "MapName": null,
+              "Name": "Spiritual Essence",
+              "Tile": "0, 0",
+              "Type": 0,
+              "ID": "Rafseazz.RSVCP_Spiritual_Essence",
+              "DaysUntilExpire": null,
+              "SpawnTime": 600,
+              "ConfigItem": null,
+              "MonType": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "MapName": "Custom_Ridgeside_RSVSpiritRealm",
+      "Name": null,
+      "Tile": "63, 78",
+      "Type": "Monster",
+      "ID": -56,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": {
+        "MonsterName": "shadow brute",
+        "Settings": {
+          "SpawnWeight": 4,
+          "HP": 400,
+          "Damage": 15,
+          "SeesPlayersAtSpawn": false,
+          "DodgeChance": 10,
+          "RelatedSkill": "Combat",
+          "Sprite": "Characters/Monsters/RSVBeast1",
+          "EXP": 15,
+          "Loot": [
+            {
+              "MapName": null,
+              "Name": "Spiritual Essence",
+              "Tile": "0, 0",
+              "Type": 0,
+              "ID": "Rafseazz.RSVCP_Spiritual_Essence",
+              "DaysUntilExpire": null,
+              "SpawnTime": 600,
+              "ConfigItem": null,
+              "MonType": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "MapName": "Custom_Ridgeside_RSVSpiritRealm",
+      "Name": null,
+      "Tile": "94, 64",
+      "Type": "Monster",
+      "ID": -57,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": {
+        "MonsterName": "pepper rex",
+        "Settings": {
+          "SpawnWeight": 2,
+          "HP": 2000,
+          "Damage": 20,
+          "SeesPlayersAtSpawn": false,
+          "DodgeChance": 1,
+          "RelatedSkill": "Combat",
+          "Sprite": "Characters/Monsters/RSVViperial",
+          "EXP": 34,
+          "Loot": [
+            {
+              "MapName": null,
+              "Name": "Spiritual Essence",
+              "Tile": "0, 0",
+              "Type": 0,
+              "ID": "Rafseazz.RSVCP_Spiritual_Essence",
+              "DaysUntilExpire": null,
+              "SpawnTime": 600,
+              "ConfigItem": null,
+              "MonType": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "MapName": "Custom_Ridgeside_RSVSpiritRealm",
+      "Name": null,
+      "Tile": "97, 21",
+      "Type": "Monster",
+      "ID": -58,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": {
+        "MonsterName": "pepper rex",
+        "Settings": {
+          "SpawnWeight": 2,
+          "HP": 2000,
+          "Damage": 20,
+          "SeesPlayersAtSpawn": false,
+          "DodgeChance": 1,
+          "RelatedSkill": "Combat",
+          "Sprite": "Characters/Monsters/RSVViperial",
+          "EXP": 34,
+          "Loot": [
+            {
+              "MapName": null,
+              "Name": "Spiritual Essence",
+              "Tile": "0, 0",
+              "Type": 0,
+              "ID": "Rafseazz.RSVCP_Spiritual_Essence",
+              "DaysUntilExpire": null,
+              "SpawnTime": 600,
+              "ConfigItem": null,
+              "MonType": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "MapName": "Custom_Ridgeside_RSVSpiritRealm",
+      "Name": null,
+      "Tile": "3, 68",
+      "Type": "Monster",
+      "ID": -59,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": {
+        "MonsterName": "pepper rex",
+        "Settings": {
+          "SpawnWeight": 2,
+          "HP": 2000,
+          "Damage": 20,
+          "SeesPlayersAtSpawn": false,
+          "DodgeChance": 1,
+          "RelatedSkill": "Combat",
+          "Sprite": "Characters/Monsters/RSVViperial",
+          "EXP": 34,
+          "Loot": [
+            {
+              "MapName": null,
+              "Name": "Spiritual Essence",
+              "Tile": "0, 0",
+              "Type": 0,
+              "ID": "Rafseazz.RSVCP_Spiritual_Essence",
+              "DaysUntilExpire": null,
+              "SpawnTime": 600,
+              "ConfigItem": null,
+              "MonType": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "MapName": "Custom_Ridgeside_RSVSpiritRealm",
+      "Name": null,
+      "Tile": "7, 21",
+      "Type": "Monster",
+      "ID": -60,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": {
+        "MonsterName": "pepper rex",
+        "Settings": {
+          "SpawnWeight": 2,
+          "HP": 2000,
+          "Damage": 20,
+          "SeesPlayersAtSpawn": false,
+          "DodgeChance": 1,
+          "RelatedSkill": "Combat",
+          "Sprite": "Characters/Monsters/RSVViperial",
+          "EXP": 34,
+          "Loot": [
+            {
+              "MapName": null,
+              "Name": "Spiritual Essence",
+              "Tile": "0, 0",
+              "Type": 0,
+              "ID": "Rafseazz.RSVCP_Spiritual_Essence",
+              "DaysUntilExpire": null,
+              "SpawnTime": 600,
+              "ConfigItem": null,
+              "MonType": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "MapName": "Custom_Ridgeside_RSVSpiritRealm",
+      "Name": null,
+      "Tile": "42, 12",
+      "Type": "Monster",
+      "ID": -61,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": {
+        "MonsterName": "pepper rex",
+        "Settings": {
+          "SpawnWeight": 2,
+          "HP": 2000,
+          "Damage": 20,
+          "SeesPlayersAtSpawn": false,
+          "DodgeChance": 1,
+          "RelatedSkill": "Combat",
+          "Sprite": "Characters/Monsters/RSVViperial",
+          "EXP": 34,
+          "Loot": [
+            {
+              "MapName": null,
+              "Name": "Spiritual Essence",
+              "Tile": "0, 0",
+              "Type": 0,
+              "ID": "Rafseazz.RSVCP_Spiritual_Essence",
+              "DaysUntilExpire": null,
+              "SpawnTime": 600,
+              "ConfigItem": null,
+              "MonType": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgeForest",
+      "Name": "Geode",
+      "Tile": "83, 46",
+      "Type": "Ore",
+      "ID": 75,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgeForest",
+      "Name": "Copper",
+      "Tile": "148, 62",
+      "Type": "Ore",
+      "ID": 751,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgeForest",
+      "Name": "Iron",
+      "Tile": "77, 86",
+      "Type": "Ore",
+      "ID": 290,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgeForest",
+      "Name": "Gold",
+      "Tile": "18, 39",
+      "Type": "Ore",
+      "ID": 764,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgeForest",
+      "Name": "Stone",
+      "Tile": "74, 32",
+      "Type": "Ore",
+      "ID": 670,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgeForest",
+      "Name": "Stone",
+      "Tile": "99, 42",
+      "Type": "Ore",
+      "ID": 668,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgeForest",
+      "Name": "Copper",
+      "Tile": "63, 46",
+      "Type": "Ore",
+      "ID": 751,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgeForest",
+      "Name": "Stone",
+      "Tile": "77, 85",
+      "Type": "Ore",
+      "ID": 668,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgeForest",
+      "Name": "Stone",
+      "Tile": "4, 103",
+      "Type": "Ore",
+      "ID": 668,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgeForest",
+      "Name": "Stone",
+      "Tile": "76, 105",
+      "Type": "Ore",
+      "ID": 668,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgeForest",
+      "Name": "Stone",
+      "Tile": "131, 124",
+      "Type": "Ore",
+      "ID": 670,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgeForest",
+      "Name": "Copper",
+      "Tile": "26, 113",
+      "Type": "Ore",
+      "ID": 751,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgeForest",
+      "Name": "Gold",
+      "Tile": "65, 79",
+      "Type": "Ore",
+      "ID": 764,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgeForest",
+      "Name": "Iron",
+      "Tile": "29, 63",
+      "Type": "Ore",
+      "ID": 290,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgeForest",
+      "Name": "Stone",
+      "Tile": "143, 64",
+      "Type": "Ore",
+      "ID": 668,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgeForest",
+      "Name": "Stone",
+      "Tile": "18, 66",
+      "Type": "Ore",
+      "ID": 670,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgeForest",
+      "Name": "Stone",
+      "Tile": "139, 85",
+      "Type": "Ore",
+      "ID": 670,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgeForest",
+      "Name": "Iron",
+      "Tile": "81, 106",
+      "Type": "Ore",
+      "ID": 290,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgeForest",
+      "Name": "Copper",
+      "Tile": "32, 43",
+      "Type": "Ore",
+      "ID": 751,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgeForest",
+      "Name": "Gold",
+      "Tile": "60, 45",
+      "Type": "Ore",
+      "ID": 764,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgeForest",
+      "Name": "Iron",
+      "Tile": "148, 64",
+      "Type": "Ore",
+      "ID": 290,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgeForest",
+      "Name": "Stone",
+      "Tile": "31, 12",
+      "Type": "Ore",
+      "ID": 668,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgeForest",
+      "Name": "Stone",
+      "Tile": "138, 47",
+      "Type": "Ore",
+      "ID": 668,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgeForest",
+      "Name": "Iron",
+      "Tile": "97, 39",
+      "Type": "Ore",
+      "ID": 290,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgeForest",
+      "Name": "Stone",
+      "Tile": "20, 43",
+      "Type": "Ore",
+      "ID": 670,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgeForest",
+      "Name": "Stone",
+      "Tile": "8, 66",
+      "Type": "Ore",
+      "ID": 668,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgeForest",
+      "Name": "Iron",
+      "Tile": "85, 42",
+      "Type": "Ore",
+      "ID": 290,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgeForest",
+      "Name": "Stone",
+      "Tile": "22, 65",
+      "Type": "Ore",
+      "ID": 668,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgeForest",
+      "Name": "Copper",
+      "Tile": "54, 43",
+      "Type": "Ore",
+      "ID": 751,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgeForest",
+      "Name": "Mystic",
+      "Tile": "59, 41",
+      "Type": "Ore",
+      "ID": 46,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgeForest",
+      "Name": "Stone",
+      "Tile": "59, 45",
+      "Type": "Ore",
+      "ID": 668,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgeForest",
+      "Name": "Gem",
+      "Tile": "82, 42",
+      "Type": "Ore",
+      "ID": 2,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgeForest",
+      "Name": "Gold",
+      "Tile": "70, 88",
+      "Type": "Ore",
+      "ID": 764,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgeForest",
+      "Name": "Stone",
+      "Tile": "22, 119",
+      "Type": "Ore",
+      "ID": 670,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgeForest",
+      "Name": "Stone",
+      "Tile": "94, 110",
+      "Type": "Ore",
+      "ID": 668,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgeForest",
+      "Name": "Stone",
+      "Tile": "36, 37",
+      "Type": "Ore",
+      "ID": 668,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgeForest",
+      "Name": "Copper",
+      "Tile": "143, 68",
+      "Type": "Ore",
+      "ID": 751,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgeForest",
+      "Name": "Iron",
+      "Tile": "141, 44",
+      "Type": "Ore",
+      "ID": 290,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgeForest",
+      "Name": "Stone",
+      "Tile": "27, 38",
+      "Type": "Ore",
+      "ID": 670,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgeForest",
+      "Name": "Stone",
+      "Tile": "4, 112",
+      "Type": "Ore",
+      "ID": 668,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgeForest",
+      "Name": "Stone",
+      "Tile": "98, 79",
+      "Type": "Ore",
+      "ID": 670,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgeForest",
+      "Name": "Inked Fossil",
+      "Tile": "72, 55",
+      "Type": "Forage",
+      "ID": "Rafseazz.RSVCP_Inked_Fossil",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgeForest",
+      "Name": "Inked Fossil",
+      "Tile": "28, 53",
+      "Type": "Forage",
+      "ID": "Rafseazz.RSVCP_Inked_Fossil",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgeForest",
+      "Name": "Silver Fish Bones",
+      "Tile": "128, 36",
+      "Type": "Forage",
+      "ID": "Rafseazz.RSVCP_Silver_Fish_Bones",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgeForest",
+      "Name": "Silver Fish Bones",
+      "Tile": "131, 110",
+      "Type": "Forage",
+      "ID": "Rafseazz.RSVCP_Silver_Fish_Bones",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgeForest",
+      "Name": "Ring:Jade Ring",
+      "Tile": "129, 82",
+      "Type": "Item",
+      "ID": "532",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "Ring",
+        "Name": "Jade Ring"
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgeForest",
+      "Name": "96",
+      "Tile": "70, 108",
+      "Type": "Forage",
+      "ID": "96",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgeForest",
+      "Name": "593",
+      "Tile": "59, 36",
+      "Type": "Forage",
+      "ID": "593",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgeForest",
+      "Name": "537",
+      "Tile": "15, 104",
+      "Type": "Forage",
+      "ID": "537",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgeForest",
+      "Name": "537",
+      "Tile": "162, 29",
+      "Type": "Forage",
+      "ID": "537",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgeForest",
+      "Name": "398",
+      "Tile": "39, 36",
+      "Type": "Forage",
+      "ID": "398",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgeForest",
+      "Name": "398",
+      "Tile": "79, 73",
+      "Type": "Forage",
+      "ID": "398",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgeForest",
+      "Name": "Ridge Wild Apple",
+      "Tile": "96, 12",
+      "Type": "Forage",
+      "ID": "Rafseazz.RSVCP_Ridge_Wild_Apple",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgeForest",
+      "Name": "Ridge Wild Apple",
+      "Tile": "105, 58",
+      "Type": "Forage",
+      "ID": "Rafseazz.RSVCP_Ridge_Wild_Apple",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgeForest",
+      "Name": "396",
+      "Tile": "10, 85",
+      "Type": "Forage",
+      "ID": "396",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgeForest",
+      "Name": "Mountain Hokkaido",
+      "Tile": "148, 124",
+      "Type": "Forage",
+      "ID": "Rafseazz.RSVCP_Mountain_Hokkaido",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgeForest",
+      "Name": "396",
+      "Tile": "89, 30",
+      "Type": "Forage",
+      "ID": "396",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgeForest",
+      "Name": "Ridge Wild Apple",
+      "Tile": "62, 38",
+      "Type": "Forage",
+      "ID": "Rafseazz.RSVCP_Ridge_Wild_Apple",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgeForest",
+      "Name": "Ridge Wild Apple",
+      "Tile": "74, 112",
+      "Type": "Forage",
+      "ID": "Rafseazz.RSVCP_Ridge_Wild_Apple",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgeForest",
+      "Name": "Mountain Hokkaido",
+      "Tile": "12, 122",
+      "Type": "Forage",
+      "ID": "Rafseazz.RSVCP_Mountain_Hokkaido",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgeForest",
+      "Name": "Mountain Hokkaido",
+      "Tile": "43, 104",
+      "Type": "Forage",
+      "ID": "Rafseazz.RSVCP_Mountain_Hokkaido",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgeForest",
+      "Name": "Mountain Chico",
+      "Tile": "116, 51",
+      "Type": "Forage",
+      "ID": "Rafseazz.RSVCP_Mountain_Chico",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgeForest",
+      "Name": "Ridge Wild Apple",
+      "Tile": "91, 21",
+      "Type": "Forage",
+      "ID": "Rafseazz.RSVCP_Ridge_Wild_Apple",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgeForest",
+      "Name": "Forest Amancay",
+      "Tile": "66, 88",
+      "Type": "Forage",
+      "ID": "Rafseazz.RSVCP_Forest_Amancay",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgeForest",
+      "Name": "398",
+      "Tile": "98, 33",
+      "Type": "Forage",
+      "ID": "398",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgeForest",
+      "Name": "398",
+      "Tile": "150, 66",
+      "Type": "Forage",
+      "ID": "398",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgeForest",
+      "Name": "Violet Devil's Claw",
+      "Tile": "109, 70",
+      "Type": "Forage",
+      "ID": "Rafseazz.RSVCP_Violet_Devil_s_Claw",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgeForest",
+      "Name": "Mountain Chico",
+      "Tile": "14, 96",
+      "Type": "Forage",
+      "ID": "Rafseazz.RSVCP_Mountain_Chico",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgeForest",
+      "Name": "Forest Amancay",
+      "Tile": "107, 106",
+      "Type": "Forage",
+      "ID": "Rafseazz.RSVCP_Forest_Amancay",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgeFalls",
+      "Name": "Violet Devil's Claw",
+      "Tile": "0, 7",
+      "Type": "Forage",
+      "ID": "Rafseazz.RSVCP_Violet_Devil_s_Claw",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgeFalls",
+      "Name": "Violet Devil's Claw",
+      "Tile": "56, 36",
+      "Type": "Forage",
+      "ID": "Rafseazz.RSVCP_Violet_Devil_s_Claw",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgeFalls",
+      "Name": "Violet Devil's Claw",
+      "Tile": "78, 5",
+      "Type": "Forage",
+      "ID": "Rafseazz.RSVCP_Violet_Devil_s_Claw",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgeFalls",
+      "Name": "Mountain Hokkaido",
+      "Tile": "1, 19",
+      "Type": "Forage",
+      "ID": "Rafseazz.RSVCP_Mountain_Hokkaido",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgeFalls",
+      "Name": "Violet Devil's Claw",
+      "Tile": "65, 33",
+      "Type": "Forage",
+      "ID": "Rafseazz.RSVCP_Violet_Devil_s_Claw",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgeFalls",
+      "Name": "Ridge Wild Apple",
+      "Tile": "63, 12",
+      "Type": "Forage",
+      "ID": "Rafseazz.RSVCP_Ridge_Wild_Apple",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgeFalls",
+      "Name": "Mountain Chico",
+      "Tile": "7, 46",
+      "Type": "Forage",
+      "ID": "Rafseazz.RSVCP_Mountain_Chico",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_Ridge",
+      "Name": "Ridge Wild Apple",
+      "Tile": "10, 18",
+      "Type": "Forage",
+      "ID": "Rafseazz.RSVCP_Ridge_Wild_Apple",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_Ridge",
+      "Name": "Ridge Wild Apple",
+      "Tile": "107, 31",
+      "Type": "Forage",
+      "ID": "Rafseazz.RSVCP_Ridge_Wild_Apple",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_Ridge",
+      "Name": "Violet Devil's Claw",
+      "Tile": "33, 9",
+      "Type": "Forage",
+      "ID": "Rafseazz.RSVCP_Violet_Devil_s_Claw",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_Ridge",
+      "Name": "Mountain Chico",
+      "Tile": "87, 47",
+      "Type": "Forage",
+      "ID": "Rafseazz.RSVCP_Mountain_Chico",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_Ridge",
+      "Name": "Forest Amancay",
+      "Tile": "43, 35",
+      "Type": "Forage",
+      "ID": "Rafseazz.RSVCP_Forest_Amancay",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgesideVillage",
+      "Name": "Ridge Wild Apple",
+      "Tile": "42, 141",
+      "Type": "Forage",
+      "ID": "Rafseazz.RSVCP_Ridge_Wild_Apple",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgesideVillage",
+      "Name": "Mountain Chico",
+      "Tile": "17, 122",
+      "Type": "Forage",
+      "ID": "Rafseazz.RSVCP_Mountain_Chico",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgesideVillage",
+      "Name": "398",
+      "Tile": "15, 111",
+      "Type": "Forage",
+      "ID": "398",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgesideVillage",
+      "Name": "398",
+      "Tile": "18, 144",
+      "Type": "Forage",
+      "ID": "398",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgesideVillage",
+      "Name": "396",
+      "Tile": "10, 147",
+      "Type": "Forage",
+      "ID": "396",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgesideVillage",
+      "Name": "Mountain Chico",
+      "Tile": "50, 142",
+      "Type": "Forage",
+      "ID": "Rafseazz.RSVCP_Mountain_Chico",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgesideVillage",
+      "Name": "398",
+      "Tile": "150, 39",
+      "Type": "Forage",
+      "ID": "398",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgesideVillage",
+      "Name": "Ridge Wild Apple",
+      "Tile": "49, 22",
+      "Type": "Forage",
+      "ID": "Rafseazz.RSVCP_Ridge_Wild_Apple",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgesideVillage",
+      "Name": "Ridge Wild Apple",
+      "Tile": "13, 135",
+      "Type": "Forage",
+      "ID": "Rafseazz.RSVCP_Ridge_Wild_Apple",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgesideVillage",
+      "Name": "396",
+      "Tile": "38, 108",
+      "Type": "Forage",
+      "ID": "396",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgesideVillage",
+      "Name": "Mountain Chico",
+      "Tile": "8, 123",
+      "Type": "Forage",
+      "ID": "Rafseazz.RSVCP_Mountain_Chico",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RidgesideVillage",
+      "Name": "Ridge Wild Apple",
+      "Tile": "169, 10",
+      "Type": "Forage",
+      "ID": "Rafseazz.RSVCP_Ridge_Wild_Apple",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RSVTheHike",
+      "Name": "404",
+      "Tile": "67, 51",
+      "Type": "Forage",
+      "ID": "404",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RSVTheHike",
+      "Name": "Violet Devil's Claw",
+      "Tile": "55, 52",
+      "Type": "Forage",
+      "ID": "Rafseazz.RSVCP_Violet_Devil_s_Claw",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RSVTheHike",
+      "Name": "Mountain Hokkaido",
+      "Tile": "30, 78",
+      "Type": "Forage",
+      "ID": "Rafseazz.RSVCP_Mountain_Hokkaido",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RSVTheHike",
+      "Name": "404",
+      "Tile": "6, 75",
+      "Type": "Forage",
+      "ID": "404",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RSVTheHike",
+      "Name": "Mountain Hokkaido",
+      "Tile": "45, 50",
+      "Type": "Forage",
+      "ID": "Rafseazz.RSVCP_Mountain_Hokkaido",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RSVTheHike",
+      "Name": "404",
+      "Tile": "65, 68",
+      "Type": "Forage",
+      "ID": "404",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RSVTheHike",
+      "Name": "Mountain Hokkaido",
+      "Tile": "43, 68",
+      "Type": "Forage",
+      "ID": "Rafseazz.RSVCP_Mountain_Hokkaido",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RSVTheHike",
+      "Name": "Mountain Hokkaido",
+      "Tile": "53, 33",
+      "Type": "Forage",
+      "ID": "Rafseazz.RSVCP_Mountain_Hokkaido",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_RSVTheHike",
+      "Name": "Mountain Hokkaido",
+      "Tile": "62, 25",
+      "Type": "Forage",
+      "ID": "Rafseazz.RSVCP_Mountain_Hokkaido",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    }
+  ]
+}

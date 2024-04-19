@@ -1,0 +1,57 @@
+{
+   "Format": "2.0.0",
+   "AliasTokenNames": {
+        "IsBabyCat0": "DellyBelly.BabyPets/IsBabyCatZero",
+		"IsBabyCat1": "DellyBelly.BabyPets/IsBabyCatOne",
+		"IsBabyCat2": "DellyBelly.BabyPets/IsBabyCatTwo",
+		"IsBabyCat3": "DellyBelly.BabyPets/IsBabyCatThree",
+		"IsBabyCat4": "DellyBelly.BabyPets/IsBabyCatFour",
+    },
+   "Changes": [
+   // Cat 0
+	 {
+		"Action": "Load",
+		"Target": "Animals/cat",
+		"FromFile": "assets/kitten-cat.png",
+		"When":{
+			"IsBabyCat0": "true"
+		}
+	 },
+   // Cat 1
+	 {
+		"Action": "Load",
+		"Target": "Animals/cat1",
+		"FromFile": "assets/kitten-cat1.png",
+		"When":{
+			"IsBabyCat1": "true"
+		}
+	 },
+   // Cat 2
+	 {
+		"Action": "Load",
+		"Target": "Animals/cat2",
+		"FromFile": "assets/kitten-cat2.png",
+		"When":{
+			"IsBabyCat2": "true"
+		}
+	 },
+   // Cat 3
+	 {
+		"Action": "Load",
+		"Target": "Animals/cat3",
+		"FromFile": "assets/kitten-cat3.png",
+		"When":{
+			"IsBabyCat3": "true"
+		}
+	 },
+   // Cat 4
+	 {
+		"Action": "Load",
+		"Target": "Animals/cat4",
+		"FromFile": "assets/kitten-cat4.png",
+		"When":{
+			"IsBabyCat4": "true"
+		}
+	 }
+   ]
+}

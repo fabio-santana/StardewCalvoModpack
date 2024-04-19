@@ -1,0 +1,12 @@
+{
+	"Format": "2.0",
+	"Changes": [
+		{
+			"Action": "EditImage",
+			"Target": "Tilesheets/Furniture",
+			"FromFile": "assets/Snorlax_Plush.png",
+			"FromArea": { "X" : 0, "Y": 0, "Width": 32, "Height": 32 },
+			"ToArea": { "X" : 80, "Y": 832, "Width": 32, "Height": 32 },
+		}
+	]
+}

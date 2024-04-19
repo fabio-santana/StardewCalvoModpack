@@ -1,0 +1,95 @@
+{
+  "WeatherForYesterday": "Storm",
+  "LNOSCounter": {},
+  "ExistingObjectLocations": {},
+  "SavedObjects": [
+    {
+      "MapName": "Custom_Ridgeside_AguarCave",
+      "Name": "Highland Jostaberry",
+      "Tile": "15, 10",
+      "Type": "Forage",
+      "ID": "Rafseazz.RSVCP_Highland_Jostaberry",
+      "DaysUntilExpire": 5,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_AguarCave",
+      "Name": "Mountain Chico",
+      "Tile": "6, 18",
+      "Type": "Forage",
+      "ID": "Rafseazz.RSVCP_Mountain_Chico",
+      "DaysUntilExpire": 6,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_AguarCave",
+      "Name": "Northern Limequat",
+      "Tile": "16, 16",
+      "Type": "Forage",
+      "ID": "Rafseazz.RSVCP_Northern_Limequat",
+      "DaysUntilExpire": 7,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_AguarCave",
+      "Name": "Paradise Rangpur",
+      "Tile": "6, 19",
+      "Type": "Forage",
+      "ID": "Rafseazz.RSVCP_Paradise_Rangpur",
+      "DaysUntilExpire": 8,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_AguarCave",
+      "Name": "Paradise Rangpur",
+      "Tile": "13, 19",
+      "Type": "Forage",
+      "ID": "Rafseazz.RSVCP_Paradise_Rangpur",
+      "DaysUntilExpire": 9,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_AguarCave",
+      "Name": "Desert Tangelo",
+      "Tile": "16, 17",
+      "Type": "Forage",
+      "ID": "Rafseazz.RSVCP_Desert_Tangelo",
+      "DaysUntilExpire": 11,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_AguarCave",
+      "Name": "Paradise Rangpur",
+      "Tile": "3, 20",
+      "Type": "Forage",
+      "ID": "Rafseazz.RSVCP_Paradise_Rangpur",
+      "DaysUntilExpire": 12,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Ridgeside_AguarCave",
+      "Name": "Ember Blood Lime",
+      "Tile": "5, 16",
+      "Type": "Forage",
+      "ID": "Rafseazz.RSVCP_Ember_Blood_Lime",
+      "DaysUntilExpire": 13,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    }
+  ]
+}

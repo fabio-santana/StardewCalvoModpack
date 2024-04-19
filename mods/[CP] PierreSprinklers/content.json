@@ -1,0 +1,44 @@
+﻿{
+  "Format": "2.0.0",
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "TargetField": [ "SeedShop", "Items" ],
+      "Entries": {
+        "PierreSprinklers_BasicSprinkler": {
+          "Id": "PierreSprinklers.BasicSprinkler",
+          "ItemId": "(0)599",
+          "Price": 1500,
+          "IgnoreShopPriceModifiers": "false"
+        },
+        "PierreSprinklers_QualitySprinkler": {
+          "Id": "PierreSprinklers.QualitySprinkler",
+          "ItemId": "(0)621",
+          "Price": 3000,
+          "IgnoreShopPriceModifiers": "false"
+        },
+        "PierreSprinklers_IridiumSprinkler": {
+          "Id": "PierreSprinklers.IridiumSprinkler",
+          "ItemId": "(0)645",
+          "Price": 7500,
+          "IgnoreShopPriceModifiers": "false"
+        }
+      },
+      "MoveEntries": [
+        {
+          "Id": "PierreSprinklers.BasicSprinkler",
+          "BeforeId": "(O)472"
+        },
+        {
+          "Id": "PierreSprinklers.QualitySprinkler",
+          "BeforeId": "(O)472"
+        },
+        {
+          "Id": "PierreSprinklers.IridiumSprinkler",
+          "BeforeId": "(O)472"
+        }
+      ]
+    }
+  ]
+}

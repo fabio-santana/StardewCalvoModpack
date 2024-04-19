@@ -1,0 +1,87 @@
+{
+  // GUI - Menu do Jogo
+  "OptionsTabTooltip": "Opções da UI Info Suite 2",
+  
+  // GUI - Painel de Anúncios
+  "Billboard": "Painel de Anúncios",
+  "Calendar": "Calendário",
+  
+  // GUI - Loja de Sementes
+  "HarvestPrice": "Preço da Colheita",
+  
+  // Produção
+  "Days": "dias",
+  "Hours": "horas",
+  "Minutes": "minutos",
+  
+  // Colheita
+  "DaysToMature": "dias para amadurecer",
+  "ReadyToHarvest": "Pronto para Colher!",
+  
+  // Ícones de exibição - Geral
+  "TodaysRecipe": "Receita de Hoje: ",
+  "TravelingMerchantIsInTown": "O comerciante viajante está na cidade!",
+  "RainNextDay": "Chuva prevista para amanhã",
+  "ThunderstormNextDay": "Tempestade prevista para amanhã",
+  "SnowNextDay": "Neve prevista para amanhã",
+  "IslandRainNextDay": "Chuva prevista para a ilha amanhã",
+  "IslandThunderstormNextDay": "Tempestade prevista para a ilha amanhã",
+  "DaysUntilToolIsUpgraded": "{0} dia(s) até que {1} termine de ser atualizado",
+  "ToolIsFinishedBeingUpgraded": "{0} foi finalizado!",
+  "NpcBirthday": "Aniversário de {0}",
+  "RobinBuildingStatus": "Robin terminará sua nova construção em {0} dia(s)",
+  "RobinHouseUpgradeStatus": "Robin terminará a atualização de sua casa em {0} dia(s)",
+
+  // Ícones de exibição - Coletáveis
+  "CanFindSalmonberry": "Você pode encontrar Amoras hoje",
+  "CanFindBlackberry": "Você pode encontrar Framboesas hoje",
+  "CanFindHazelnut": "Você pode encontrar Avelãs em árvores hoje",
+  
+  // Ícones de exibição - Sorte
+  "DailyLuckValue": "Sua sorte diária é {0}",
+  "FeelingLucky": "Você está se sentindo com sorte!!",
+  "LuckyButNotTooLucky": "Se sentindo sortudo... mas não muito sortudo",
+  "NotFeelingLuckyAtAll": "Você não está se sentindo com sorte hoje...",
+  "MaybeStayHome": "Talvez você devesse ficar em casa hoje...",
+  "LuckStatus1": "Se sentindo sortudo!",
+  "LuckStatus2": "Se sentindo um pouco sortudo hoje!",
+  "LuckStatus3": "O dia está em suas mãos",
+  "LuckStatus4": "Os espíritos estão absolutamente neutros hoje",
+  "LuckStatus5": "A sorte não estará do seu lado hoje",
+  "LuckStatus6": "Talvez você devesse ficar em casa hoje...",
+
+  // Configurações - Geral
+  "ShowLevelUpAnimation": "Mostrar animação de aumento de nível",
+  "ShowExperienceBar": "Mostrar barra de experiência",
+  "AllowExperienceBarToFadeOut": "Permitir que a barra de experiência desapareça",
+  "ShowExperienceGain": "Mostrar ganho de experiência",
+  "ShowLocationOfTownsPeople": "Mostrar cidadãos no mapa",
+  "ShowAnimalsNeedPets": "Mostrar quando os animais precisam de carinho",
+  "HideAnimalPetOnMaxFriendship": "Esconder quando a amizade estiver no máximo",
+  "ShowCropAndBarrelTooltip": "Mostrar tempos de colheita e barril",
+  "ShowItemEffectRanges": "Mostrar alcance do espantalho e aspersor",
+  "ShowExtraItemInformation": "Mostrar informações adicionais ao passar o mouse sobre o item",
+  "ShowHarvestPricesInShop": "Mostrar preços de colheita na loja",
+  
+  // Configurações - Informações das abas
+  "DisplayCalendarAndBillboard": "Mostrar botão de calendário/painel de anúncios",
+  "ShowHeartFills": "Mostrar preenchimento de corações",
+  "ShowTodaysGifts": "Mostrar presentes dados hoje",
+  
+  // Configurações - Mostrar ícones
+  "ShowBirthdayIcon": "Mostrar ícone de Aniversário",
+  "HideBirthdayIfFullFriendShip": "Esconder quando a amizade estiver no máximo",
+  "ShowTravelingMerchant": "Mostrar Mercador Viajante",
+  "HideMerchantWhenVisited": "Esconder quando visitado",
+  "ShowRainyDay": "Mostrar dias chuvosos",
+  "ShowWhenNewRecipesAreAvailable": "Mostrar quando novas receitas estiverem disponíveis",
+  "ShowToolUpgradeStatus": "Mostrar status de atualização de ferramentas",
+  "ShowRobinBuildingStatusIcon": "Mostrar status de construção da Robin",
+  "ShowLuckIcon": "Mostrar ícone de sorte",
+  "ShowExactValue": "Mostrar valor exato",
+  "ShowSeasonalBerry": "Mostrar forrageáveis sazonais",
+  "ShowSeasonalBerryHazelnut": "Mostrar avelãs em árvores",
+  
+  // Outros
+  "LevelUp": "Aumentou de Nível!"
+}

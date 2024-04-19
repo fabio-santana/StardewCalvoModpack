@@ -1,0 +1,11 @@
+{
+    "Name": "Roosters!",
+    "Author": "Meara",
+    "Version": "1.0.0",
+    "Description": "Adds Roosters to SDV via Content Patcher.",
+    "UniqueID": "CP.Roosters1.6",
+	"UpdateKeys": ["Nexus:???"],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}

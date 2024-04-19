@@ -1,0 +1,11 @@
+﻿{
+  "Name": "Pierre Sprinklers",
+  "Author": "Bluejal",
+  "Version": "1.0.1",
+  "Description": "Gets Pierre to sell sprinklers in his shop.",
+  "UniqueID": "Bluejal.PierreSprinklers",
+  "UpdateKeys": ["Nexus:21206"],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}
