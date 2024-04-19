@@ -1,0 +1,4 @@
+{
+    MovementSpeedMultiplierName: "Multiplicador de Velocidade de Movimento", MovementSpeedMultiplierTooltip: "A velocidade de movimento é multiplicada por esse valor. O padrão do mod é 1.5, o que significa um movimento 50% mais rápido. Defina isto como 1 para desativar o aumento da velocidade de movimento.", 
+    ToolChargeDelayName:         "Atraso de carga da ferramenta",         ToolChargeDelayTooltip:         "Tempo necessário para carregar a enxada ou regador em ms. Normalmente, esse é de 600ms. O padrão é 600/1,5 = 400, o que significa carregamento 50% mais rápido. Defina como 600 para desativar o carregamento mais rápido da ferramenta."  
+}

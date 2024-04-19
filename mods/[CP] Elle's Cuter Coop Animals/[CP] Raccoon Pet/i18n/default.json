@@ -1,0 +1,10 @@
+{
+    "RaccoonPet.Name": "raccoon",
+
+    "RaccoonAdopt.01": "Hello @!$h#$b#You see this raccoon here?",
+    "RaccoonAdopt.02": "I found it sitting outside the entrance to your farm!",
+    "RaccoonAdopt.03": "I think it likes this place! Hey, um.... Don't you think this farm could use a good raccoon?$h",
+    "RaccoonAdopt.04": "Well, little %pet... You be a good raccoon now... okay?",
+
+    "RaccoonPrice.Description": "Changes the adoption price of the raccoon.",
+}

@@ -1,0 +1,13 @@
+{
+	"Name": "Raccoon pet",
+	"Author": "skellady",
+	"Version": "1.1.1",
+	"Description": "Adds raccoons as pets.",
+	"UniqueID": "skellady.RaccoonPet",
+	"MinimumApiVersion": "4.0.0",
+	"UpdateKeys": ["Nexus:19982"],
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher",
+		"MinimumVersion": "2.0.0" 
+	},
+}

@@ -1,0 +1,11 @@
+{
+    "Name": "Alecktoo's Emoji Bobbers",
+    "Author": "Alecktoo",
+    "Version": "1.0.1",
+    "Description": "replaces the two tonned bobbers with the in game emojis.",
+    "UniqueID": "Alecktoos.emojibobbers",
+    "UpdateKeys": [ "Nexus:21671" ],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

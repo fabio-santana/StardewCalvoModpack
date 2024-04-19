@@ -1,0 +1,2793 @@
+{
+	"Format": "2.0.0", 
+	
+"ConfigSchema": {
+		"LightBaby": {
+            "AllowValues": "Vanilla, Abigail, Alex, Elliott, Emily, Haley, Leah, Maru, Penny, Sam, Sebastian, Shane",
+            "Default": "Vanilla"
+		},
+		"DarkBaby": {
+            "AllowValues": "Vanilla, Abigail, Alex, Elliott, Emily, Haley, Leah, Maru, Penny, Sam, Sebastian, Shane",
+            "Default": "Vanilla"
+		},
+		"DarkerBabySkin" : {
+			"AllowValues": "true, false",
+            "Default": "false"
+			},
+		"BoySkin": {
+            "AllowValues": "Light, Dark, Darker",
+            "Default": "Light"
+		},
+		"BoyHair": {
+            "AllowValues": "Vanilla, Abigail, Alex, Elliott, Emily, Haley, Leah, Maru, Penny, Sam, Sebastian, Shane",
+            "Default": "Vanilla"
+		},
+		"GirlSkin": {
+            "AllowValues": "Light, Dark, Darker",
+            "Default": "Light"
+		},
+		"GirlHair": {
+            "AllowValues": "Vanilla, Abigail, Alex, Elliott, Emily, Haley, Leah, Maru, Penny, Sam, Sebastian, Shane",
+            "Default": "Vanilla"
+		},
+		"BoyName" : {
+			"Default": "Boy",
+			"AllowBlank": true
+			},
+		"GirlName" : {
+			"Default": "Girl",
+			"AllowBlank": true
+			},
+
+    },	
+
+
+"Changes": [	
+
+// Load Toddler Portraits  //////////////////////////////////////////
+	//Boy Light
+    {
+        "Action": "Load",
+        "Target": "Portraits/Toddler",
+        "FromFile": "assets/Portraits/Boy/Vanilla_Boy_W.png",
+        "When": {
+            "BoySkin": "Light",
+            "BoyHair": "Vanilla",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Portraits/Toddler",
+        "FromFile": "assets/Portraits/Boy/Abigail_Boy_W.png",
+        "When": {
+            "BoySkin": "Light",
+            "BoyHair": "Abigail",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Portraits/Toddler",
+        "FromFile": "assets/Portraits/Boy/Alex_Boy_W.png",
+        "When": {
+            "BoySkin": "Light",
+            "BoyHair": "Alex",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Portraits/Toddler",
+        "FromFile": "assets/Portraits/Boy/Elliott_Boy_W.png",
+        "When": {
+            "BoySkin": "Light",
+            "BoyHair": "Elliott",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Portraits/Toddler",
+        "FromFile": "assets/Portraits/Boy/Emily_Boy_W.png",
+        "When": {
+            "BoySkin": "Light",
+            "BoyHair": "Emily",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Portraits/Toddler",
+        "FromFile": "assets/Portraits/Boy/Haley_Boy_W.png",
+        "When": {
+            "BoySkin": "Light",
+            "BoyHair": "Haley",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Portraits/Toddler",
+        "FromFile": "assets/Portraits/Boy/Leah_Boy_W.png",
+        "When": {
+            "BoySkin": "Light",
+            "BoyHair": "Leah",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Portraits/Toddler",
+        "FromFile": "assets/Portraits/Boy/Maru_Boy_W.png",
+        "When": {
+            "BoySkin": "Light",
+            "BoyHair": "Maru",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Portraits/Toddler",
+        "FromFile": "assets/Portraits/Boy/Penny_Boy_W.png",
+        "When": {
+            "BoySkin": "Light",
+            "BoyHair": "Penny",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Portraits/Toddler",
+        "FromFile": "assets/Portraits/Boy/Sam_Boy_W.png",
+        "When": {
+            "BoySkin": "Light",
+            "BoyHair": "Sam",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Portraits/Toddler",
+        "FromFile": "assets/Portraits/Boy/Sebastian_Boy_W.png",
+        "When": {
+            "BoySkin": "Light",
+            "BoyHair": "Sebastian",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Portraits/Toddler",
+        "FromFile": "assets/Portraits/Boy/Shane_Boy_W.png",
+        "When": {
+            "BoySkin": "Light",
+            "BoyHair": "Shane",
+        }
+    },
+	//Boy Dark
+    {
+        "Action": "Load",
+        "Target": "Portraits/Toddler",
+        "FromFile": "assets/Portraits/Boy/Vanilla_Boy_D.png",
+        "When": {
+            "BoySkin": "Dark",
+            "BoyHair": "Vanilla",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Portraits/Toddler",
+        "FromFile": "assets/Portraits/Boy/Abigail_Boy_D.png",
+        "When": {
+            "BoySkin": "Dark",
+            "BoyHair": "Abigail",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Portraits/Toddler",
+        "FromFile": "assets/Portraits/Boy/Alex_Boy_D.png",
+        "When": {
+            "BoySkin": "Dark",
+            "BoyHair": "Alex",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Portraits/Toddler",
+        "FromFile": "assets/Portraits/Boy/Elliott_Boy_D.png",
+        "When": {
+            "BoySkin": "Dark",
+            "BoyHair": "Elliott",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Portraits/Toddler",
+        "FromFile": "assets/Portraits/Boy/Emily_Boy_D.png",
+        "When": {
+            "BoySkin": "Dark",
+            "BoyHair": "Emily",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Portraits/Toddler",
+        "FromFile": "assets/Portraits/Boy/Haley_Boy_D.png",
+        "When": {
+            "BoySkin": "Dark",
+            "BoyHair": "Haley",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Portraits/Toddler",
+        "FromFile": "assets/Portraits/Boy/Leah_Boy_D.png",
+        "When": {
+            "BoySkin": "Dark",
+            "BoyHair": "Leah",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Portraits/Toddler",
+        "FromFile": "assets/Portraits/Boy/Maru_Boy_D.png",
+        "When": {
+            "BoySkin": "Dark",
+            "BoyHair": "Maru",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Portraits/Toddler",
+        "FromFile": "assets/Portraits/Boy/Penny_Boy_D.png",
+        "When": {
+            "BoySkin": "Dark",
+            "BoyHair": "Penny",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Portraits/Toddler",
+        "FromFile": "assets/Portraits/Boy/Sam_Boy_D.png",
+        "When": {
+            "BoySkin": "Dark",
+            "BoyHair": "Sam",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Portraits/Toddler",
+        "FromFile": "assets/Portraits/Boy/Sebastian_Boy_D.png",
+        "When": {
+            "BoySkin": "Dark",
+            "BoyHair": "Sebastian",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Portraits/Toddler",
+        "FromFile": "assets/Portraits/Boy/Shane_Boy_D.png",
+        "When": {
+            "BoySkin": "Dark",
+            "BoyHair": "Shane",
+        }
+    },
+	//Boy Darker
+    {
+        "Action": "Load",
+        "Target": "Portraits/Toddler",
+        "FromFile": "assets/Portraits/Boy/Vanilla_Boy_D2.png",
+        "When": {
+            "BoySkin": "Darker",
+            "BoyHair": "Vanilla",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Portraits/Toddler",
+        "FromFile": "assets/Portraits/Boy/Abigail_Boy_D2.png",
+        "When": {
+            "BoySkin": "Darker",
+            "BoyHair": "Abigail",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Portraits/Toddler",
+        "FromFile": "assets/Portraits/Boy/Alex_Boy_D2.png",
+        "When": {
+            "BoySkin": "Darker",
+            "BoyHair": "Alex",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Portraits/Toddler",
+        "FromFile": "assets/Portraits/Boy/Elliott_Boy_D2.png",
+        "When": {
+            "BoySkin": "Darker",
+            "BoyHair": "Elliott",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Portraits/Toddler",
+        "FromFile": "assets/Portraits/Boy/Emily_Boy_D2.png",
+        "When": {
+            "BoySkin": "Darker",
+            "BoyHair": "Emily",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Portraits/Toddler",
+        "FromFile": "assets/Portraits/Boy/Haley_Boy_D2.png",
+        "When": {
+            "BoySkin": "Darker",
+            "BoyHair": "Haley",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Portraits/Toddler",
+        "FromFile": "assets/Portraits/Boy/Leah_Boy_D2.png",
+        "When": {
+            "BoySkin": "Darker",
+            "BoyHair": "Leah",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Portraits/Toddler",
+        "FromFile": "assets/Portraits/Boy/Maru_Boy_D2.png",
+        "When": {
+            "BoySkin": "Darker",
+            "BoyHair": "Maru",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Portraits/Toddler",
+        "FromFile": "assets/Portraits/Boy/Penny_Boy_D2.png",
+        "When": {
+            "BoySkin": "Darker",
+            "BoyHair": "Penny",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Portraits/Toddler",
+        "FromFile": "assets/Portraits/Boy/Sam_Boy_D2.png",
+        "When": {
+            "BoySkin": "Darker",
+            "BoyHair": "Sam",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Portraits/Toddler",
+        "FromFile": "assets/Portraits/Boy/Sebastian_Boy_D2.png",
+        "When": {
+            "BoySkin": "Darker",
+            "BoyHair": "Sebastian",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Portraits/Toddler",
+        "FromFile": "assets/Portraits/Boy/Shane_Boy_D2.png",
+        "When": {
+            "BoySkin": "Darker",
+            "BoyHair": "Shane",
+        }
+    },
+
+
+
+/////////////////	
+	
+	//Girl Light
+	{
+      "Action": "Load",
+      "Target": "Portraits/Toddler_Girl",
+      "FromFile": "assets/Portraits/Girl/Vanilla_Girl_W.png",
+	  "When": {
+        "GirlSkin": "Light",
+		"GirlHair": "Vanilla",
+	  }
+    },
+	{
+      "Action": "Load",
+      "Target": "Portraits/Toddler_Girl",
+      "FromFile": "assets/Portraits/Girl/Abigail_Girl_W.png",
+	  "When": {
+        "GirlSkin": "Light",
+		"GirlHair": "Abigail",
+	  }
+    },
+	{
+      "Action": "Load",
+      "Target": "Portraits/Toddler_Girl",
+      "FromFile": "assets/Portraits/Girl/Alex_Girl_W.png",
+	  "When": {
+        "GirlSkin": "Light",
+		"GirlHair": "Alex",
+	  }
+    },
+	{
+      "Action": "Load",
+      "Target": "Portraits/Toddler_Girl",
+      "FromFile": "assets/Portraits/Girl/Elliott_Girl_W.png",
+	  "When": {
+        "GirlSkin": "Light",
+		"GirlHair": "Elliott",
+	  }
+    },	
+	{
+      "Action": "Load",
+      "Target": "Portraits/Toddler_Girl",
+      "FromFile": "assets/Portraits/Girl/Emily_Girl_W.png",
+	  "When": {
+        "GirlSkin": "Light",
+		"GirlHair": "Emily",
+	  }
+    },
+	{
+      "Action": "Load",
+      "Target": "Portraits/Toddler_Girl",
+      "FromFile": "assets/Portraits/Girl/Haley_Girl_W.png",
+	  "When": {
+        "GirlSkin": "Light",
+		"GirlHair": "Haley",
+	  }
+    },
+	{
+      "Action": "Load",
+      "Target": "Portraits/Toddler_Girl",
+      "FromFile": "assets/Portraits/Girl/Leah_Girl_W.png",
+	  "When": {
+        "GirlSkin": "Light",
+		"GirlHair": "Leah",
+	  }
+    },
+	{
+      "Action": "Load",
+      "Target": "Portraits/Toddler_Girl",
+      "FromFile": "assets/Portraits/Girl/Maru_Girl_W.png",
+	  "When": {
+        "GirlSkin": "Light",
+		"GirlHair": "Maru",
+	  }
+    },	
+	{
+      "Action": "Load",
+      "Target": "Portraits/Toddler_Girl",
+      "FromFile": "assets/Portraits/Girl/Penny_Girl_W.png",
+	  "When": {
+        "GirlSkin": "Light",
+		"GirlHair": "Penny",
+	  }
+    },
+	{
+      "Action": "Load",
+      "Target": "Portraits/Toddler_Girl",
+      "FromFile": "assets/Portraits/Girl/Sam_Girl_W.png",
+	  "When": {
+        "GirlSkin": "Light",
+		"GirlHair": "Sam",
+	  }
+    },
+	{
+      "Action": "Load",
+      "Target": "Portraits/Toddler_Girl",
+      "FromFile": "assets/Portraits/Girl/Sebastian_Girl_W.png",
+	  "When": {
+        "GirlSkin": "Light",
+		"GirlHair": "Sebastian",
+	  }
+    },
+	{
+      "Action": "Load",
+      "Target": "Portraits/Toddler_Girl",
+      "FromFile": "assets/Portraits/Girl/Shane_Girl_W.png",
+	  "When": {
+        "GirlSkin": "Light",
+		"GirlHair": "Shane",
+	  }
+    },	
+	//Girl Dark
+{
+    "Action": "Load",
+    "Target": "Portraits/Toddler_Girl",
+    "FromFile": "assets/Portraits/Girl/Vanilla_Girl_D.png",
+    "When": {
+        "GirlSkin": "Dark",
+        "GirlHair": "Vanilla",
+    }
+},
+{
+    "Action": "Load",
+    "Target": "Portraits/Toddler_Girl",
+    "FromFile": "assets/Portraits/Girl/Abigail_Girl_D.png",
+    "When": {
+        "GirlSkin": "Dark",
+        "GirlHair": "Abigail",
+    }
+},
+{
+    "Action": "Load",
+    "Target": "Portraits/Toddler_Girl",
+    "FromFile": "assets/Portraits/Girl/Alex_Girl_D.png",
+    "When": {
+        "GirlSkin": "Dark",
+        "GirlHair": "Alex",
+    }
+},
+{
+    "Action": "Load",
+    "Target": "Portraits/Toddler_Girl",
+    "FromFile": "assets/Portraits/Girl/Elliott_Girl_D.png",
+    "When": {
+        "GirlSkin": "Dark",
+        "GirlHair": "Elliott",
+    }
+},
+{
+    "Action": "Load",
+    "Target": "Portraits/Toddler_Girl",
+    "FromFile": "assets/Portraits/Girl/Emily_Girl_D.png",
+    "When": {
+        "GirlSkin": "Dark",
+        "GirlHair": "Emily",
+    }
+},
+{
+    "Action": "Load",
+    "Target": "Portraits/Toddler_Girl",
+    "FromFile": "assets/Portraits/Girl/Haley_Girl_D.png",
+    "When": {
+        "GirlSkin": "Dark",
+        "GirlHair": "Haley",
+    }
+},
+{
+    "Action": "Load",
+    "Target": "Portraits/Toddler_Girl",
+    "FromFile": "assets/Portraits/Girl/Leah_Girl_D.png",
+    "When": {
+        "GirlSkin": "Dark",
+        "GirlHair": "Leah",
+    }
+},
+{
+    "Action": "Load",
+    "Target": "Portraits/Toddler_Girl",
+    "FromFile": "assets/Portraits/Girl/Maru_Girl_D.png",
+    "When": {
+        "GirlSkin": "Dark",
+        "GirlHair": "Maru",
+    }
+},
+{
+    "Action": "Load",
+    "Target": "Portraits/Toddler_Girl",
+    "FromFile": "assets/Portraits/Girl/Penny_Girl_D.png",
+    "When": {
+        "GirlSkin": "Dark",
+        "GirlHair": "Penny",
+    }
+},
+{
+    "Action": "Load",
+    "Target": "Portraits/Toddler_Girl",
+    "FromFile": "assets/Portraits/Girl/Sam_Girl_D.png",
+    "When": {
+        "GirlSkin": "Dark",
+        "GirlHair": "Sam",
+    }
+},
+{
+    "Action": "Load",
+    "Target": "Portraits/Toddler_Girl",
+    "FromFile": "assets/Portraits/Girl/Sebastian_Girl_D.png",
+    "When": {
+        "GirlSkin": "Dark",
+        "GirlHair": "Sebastian",
+    }
+},
+{
+      "Action": "Load",
+      "Target": "Portraits/Toddler_Girl",
+      "FromFile": "assets/Portraits/Girl/Shane_Girl_D.png",
+	  "When": {
+        "GirlSkin": "Dark",
+		"GirlHair": "Shane",
+	  }
+},
+	//Girl Darker
+{
+    "Action": "Load",
+    "Target": "Portraits/Toddler_Girl",
+    "FromFile": "assets/Portraits/Girl/Vanilla_Girl_D2.png",
+    "When": {
+        "GirlSkin": "Darker",
+        "GirlHair": "Vanilla",
+    }
+},
+{
+    "Action": "Load",
+    "Target": "Portraits/Toddler_Girl",
+    "FromFile": "assets/Portraits/Girl/Abigail_Girl_D2.png",
+    "When": {
+        "GirlSkin": "Darker",
+        "GirlHair": "Abigail",
+    }
+},
+{
+    "Action": "Load",
+    "Target": "Portraits/Toddler_Girl",
+    "FromFile": "assets/Portraits/Girl/Alex_Girl_D2.png",
+    "When": {
+        "GirlSkin": "Darker",
+        "GirlHair": "Alex",
+    }
+},
+{
+    "Action": "Load",
+    "Target": "Portraits/Toddler_Girl",
+    "FromFile": "assets/Portraits/Girl/Elliott_Girl_D2.png",
+    "When": {
+        "GirlSkin": "Darker",
+        "GirlHair": "Elliott",
+    }
+},
+{
+    "Action": "Load",
+    "Target": "Portraits/Toddler_Girl",
+    "FromFile": "assets/Portraits/Girl/Emily_Girl_D2.png",
+    "When": {
+        "GirlSkin": "Darker",
+        "GirlHair": "Emily",
+    }
+},
+{
+    "Action": "Load",
+    "Target": "Portraits/Toddler_Girl",
+    "FromFile": "assets/Portraits/Girl/Haley_Girl_D2.png",
+    "When": {
+        "GirlSkin": "Darker",
+        "GirlHair": "Haley",
+    }
+},
+{
+    "Action": "Load",
+    "Target": "Portraits/Toddler_Girl",
+    "FromFile": "assets/Portraits/Girl/Leah_Girl_D2.png",
+    "When": {
+        "GirlSkin": "Darker",
+        "GirlHair": "Leah",
+    }
+},
+{
+    "Action": "Load",
+    "Target": "Portraits/Toddler_Girl",
+    "FromFile": "assets/Portraits/Girl/Maru_Girl_D2.png",
+    "When": {
+        "GirlSkin": "Darker",
+        "GirlHair": "Maru",
+    }
+},
+{
+    "Action": "Load",
+    "Target": "Portraits/Toddler_Girl",
+    "FromFile": "assets/Portraits/Girl/Penny_Girl_D2.png",
+    "When": {
+        "GirlSkin": "Darker",
+        "GirlHair": "Penny",
+    }
+},
+{
+    "Action": "Load",
+    "Target": "Portraits/Toddler_Girl",
+    "FromFile": "assets/Portraits/Girl/Sam_Girl_D2.png",
+    "When": {
+        "GirlSkin": "Darker",
+        "GirlHair": "Sam",
+    }
+},
+{
+    "Action": "Load",
+    "Target": "Portraits/Toddler_Girl",
+    "FromFile": "assets/Portraits/Girl/Sebastian_Girl_D2.png",
+    "When": {
+        "GirlSkin": "Darker",
+        "GirlHair": "Sebastian",
+    }
+},
+{
+      "Action": "Load",
+      "Target": "Portraits/Toddler_Girl",
+      "FromFile": "assets/Portraits/Girl/Shane_Girl_D2.png",
+	  "When": {
+        "GirlSkin": "Darker",
+		"GirlHair": "Shane",
+	  }
+},
+
+	
+/////////////////	
+	
+//Load Toddler Sprite ///////////////////////////////
+	//Boy Light
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler",
+        "FromFile": "assets/Sprites/Boy/Vanilla_Boy_W.png",
+        "When": {
+            "BoySkin": "Light",
+            "BoyHair": "Vanilla",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler",
+        "FromFile": "assets/Sprites/Boy/Abigail_Boy_W.png",
+        "When": {
+            "BoySkin": "Light",
+            "BoyHair": "Abigail",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler",
+        "FromFile": "assets/Sprites/Boy/Alex_Boy_W.png",
+        "When": {
+            "BoySkin": "Light",
+            "BoyHair": "Alex",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler",
+        "FromFile": "assets/Sprites/Boy/Elliott_Boy_W.png",
+        "When": {
+            "BoySkin": "Light",
+            "BoyHair": "Elliott",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler",
+        "FromFile": "assets/Sprites/Boy/Emily_Boy_W.png",
+        "When": {
+            "BoySkin": "Light",
+            "BoyHair": "Emily",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler",
+        "FromFile": "assets/Sprites/Boy/Haley_Boy_W.png",
+        "When": {
+            "BoySkin": "Light",
+            "BoyHair": "Haley",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler",
+        "FromFile": "assets/Sprites/Boy/Leah_Boy_W.png",
+        "When": {
+            "BoySkin": "Light",
+            "BoyHair": "Leah",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler",
+        "FromFile": "assets/Sprites/Boy/Maru_Boy_W.png",
+        "When": {
+            "BoySkin": "Light",
+            "BoyHair": "Maru",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler",
+        "FromFile": "assets/Sprites/Boy/Penny_Boy_W.png",
+        "When": {
+            "BoySkin": "Light",
+            "BoyHair": "Penny",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler",
+        "FromFile": "assets/Sprites/Boy/Sam_Boy_W.png",
+        "When": {
+            "BoySkin": "Light",
+            "BoyHair": "Sam",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler",
+        "FromFile": "assets/Sprites/Boy/Sebastian_Boy_W.png",
+        "When": {
+            "BoySkin": "Light",
+            "BoyHair": "Sebastian",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler",
+        "FromFile": "assets/Sprites/Boy/Shane_Boy_W.png",
+        "When": {
+            "BoySkin": "Light",
+            "BoyHair": "Shane",
+        }
+    },
+
+	//Boy Dark
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler",
+        "FromFile": "assets/Sprites/Boy/Vanilla_Boy_D.png",
+        "When": {
+            "BoySkin": "Dark",
+            "BoyHair": "Vanilla",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler",
+        "FromFile": "assets/Sprites/Boy/Abigail_Boy_D.png",
+        "When": {
+            "BoySkin": "Dark",
+            "BoyHair": "Abigail",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler",
+        "FromFile": "assets/Sprites/Boy/Alex_Boy_D.png",
+        "When": {
+            "BoySkin": "Dark",
+            "BoyHair": "Alex",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler",
+        "FromFile": "assets/Sprites/Boy/Elliott_Boy_D.png",
+        "When": {
+            "BoySkin": "Dark",
+            "BoyHair": "Elliott",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler",
+        "FromFile": "assets/Sprites/Boy/Emily_Boy_D.png",
+        "When": {
+            "BoySkin": "Dark",
+            "BoyHair": "Emily",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler",
+        "FromFile": "assets/Sprites/Boy/Haley_Boy_D.png",
+        "When": {
+            "BoySkin": "Dark",
+            "BoyHair": "Haley",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler",
+        "FromFile": "assets/Sprites/Boy/Leah_Boy_D.png",
+        "When": {
+            "BoySkin": "Dark",
+            "BoyHair": "Leah",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler",
+        "FromFile": "assets/Sprites/Boy/Maru_Boy_D.png",
+        "When": {
+            "BoySkin": "Dark",
+            "BoyHair": "Maru",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler",
+        "FromFile": "assets/Sprites/Boy/Penny_Boy_D.png",
+        "When": {
+            "BoySkin": "Dark",
+            "BoyHair": "Penny",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler",
+        "FromFile": "assets/Sprites/Boy/Sam_Boy_D.png",
+        "When": {
+            "BoySkin": "Dark",
+            "BoyHair": "Sam",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler",
+        "FromFile": "assets/Sprites/Boy/Sebastian_Boy_D.png",
+        "When": {
+            "BoySkin": "Dark",
+            "BoyHair": "Sebastian",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler",
+        "FromFile": "assets/Sprites/Boy/Shane_Boy_D.png",
+        "When": {
+            "BoySkin": "Dark",
+            "BoyHair": "Shane",
+        }
+    },
+//
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler_dark",
+        "FromFile": "assets/Sprites/Boy/Vanilla_Boy_D.png",
+        "When": {
+            "BoySkin": "Dark",
+            "BoyHair": "Vanilla",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler_dark",
+        "FromFile": "assets/Sprites/Boy/Abigail_Boy_D.png",
+        "When": {
+            "BoySkin": "Dark",
+            "BoyHair": "Abigail",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler_dark",
+        "FromFile": "assets/Sprites/Boy/Alex_Boy_D.png",
+        "When": {
+            "BoySkin": "Dark",
+            "BoyHair": "Alex",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler_dark",
+        "FromFile": "assets/Sprites/Boy/Elliott_Boy_D.png",
+        "When": {
+            "BoySkin": "Dark",
+            "BoyHair": "Elliott",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler_dark",
+        "FromFile": "assets/Sprites/Boy/Emily_Boy_D.png",
+        "When": {
+            "BoySkin": "Dark",
+            "BoyHair": "Emily",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler_dark",
+        "FromFile": "assets/Sprites/Boy/Haley_Boy_D.png",
+        "When": {
+            "BoySkin": "Dark",
+            "BoyHair": "Haley",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler_dark",
+        "FromFile": "assets/Sprites/Boy/Leah_Boy_D.png",
+        "When": {
+            "BoySkin": "Dark",
+            "BoyHair": "Leah",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler_dark",
+        "FromFile": "assets/Sprites/Boy/Maru_Boy_D.png",
+        "When": {
+            "BoySkin": "Dark",
+            "BoyHair": "Maru",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler_dark",
+        "FromFile": "assets/Sprites/Boy/Penny_Boy_D.png",
+        "When": {
+            "BoySkin": "Dark",
+            "BoyHair": "Penny",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler_dark",
+        "FromFile": "assets/Sprites/Boy/Sam_Boy_D.png",
+        "When": {
+            "BoySkin": "Dark",
+            "BoyHair": "Sam",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler_dark",
+        "FromFile": "assets/Sprites/Boy/Sebastian_Boy_D.png",
+        "When": {
+            "BoySkin": "Dark",
+            "BoyHair": "Sebastian",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler_dark",
+        "FromFile": "assets/Sprites/Boy/Shane_Boy_D.png",
+        "When": {
+            "BoySkin": "Dark",
+            "BoyHair": "Shane",
+        }
+    },
+	//Boy Darker
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler",
+        "FromFile": "assets/Sprites/Boy/Vanilla_Boy_D2.png",
+        "When": {
+            "BoySkin": "Darker",
+            "BoyHair": "Vanilla",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler",
+        "FromFile": "assets/Sprites/Boy/Abigail_Boy_D2.png",
+        "When": {
+            "BoySkin": "Darker",
+            "BoyHair": "Abigail",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler",
+        "FromFile": "assets/Sprites/Boy/Alex_Boy_D2.png",
+        "When": {
+            "BoySkin": "Darker",
+            "BoyHair": "Alex",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler",
+        "FromFile": "assets/Sprites/Boy/Elliott_Boy_D2.png",
+        "When": {
+            "BoySkin": "Darker",
+            "BoyHair": "Elliott",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler",
+        "FromFile": "assets/Sprites/Boy/Emily_Boy_D2.png",
+        "When": {
+            "BoySkin": "Darker",
+            "BoyHair": "Emily",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler",
+        "FromFile": "assets/Sprites/Boy/Haley_Boy_D2.png",
+        "When": {
+            "BoySkin": "Darker",
+            "BoyHair": "Haley",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler",
+        "FromFile": "assets/Sprites/Boy/Leah_Boy_D2.png",
+        "When": {
+            "BoySkin": "Darker",
+            "BoyHair": "Leah",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler",
+        "FromFile": "assets/Sprites/Boy/Maru_Boy_D2.png",
+        "When": {
+            "BoySkin": "Darker",
+            "BoyHair": "Maru",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler",
+        "FromFile": "assets/Sprites/Boy/Penny_Boy_D2.png",
+        "When": {
+            "BoySkin": "Darker",
+            "BoyHair": "Penny",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler",
+        "FromFile": "assets/Sprites/Boy/Sam_Boy_D2.png",
+        "When": {
+            "BoySkin": "Darker",
+            "BoyHair": "Sam",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler",
+        "FromFile": "assets/Sprites/Boy/Sebastian_Boy_D2.png",
+        "When": {
+            "BoySkin": "Darker",
+            "BoyHair": "Sebastian",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler",
+        "FromFile": "assets/Sprites/Boy/Shane_Boy_D2.png",
+        "When": {
+            "BoySkin": "Darker",
+            "BoyHair": "Shane",
+        }
+    },
+//
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler_Dark",
+        "FromFile": "assets/Sprites/Boy/Vanilla_Boy_D2.png",
+        "When": {
+            "BoySkin": "Darker",
+            "BoyHair": "Vanilla",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler_Dark",
+        "FromFile": "assets/Sprites/Boy/Abigail_Boy_D2.png",
+        "When": {
+            "BoySkin": "Darker",
+            "BoyHair": "Abigail",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler_Dark",
+        "FromFile": "assets/Sprites/Boy/Alex_Boy_D2.png",
+        "When": {
+            "BoySkin": "Darker",
+            "BoyHair": "Alex",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler_Dark",
+        "FromFile": "assets/Sprites/Boy/Elliott_Boy_D2.png",
+        "When": {
+            "BoySkin": "Darker",
+            "BoyHair": "Elliott",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler_Dark",
+        "FromFile": "assets/Sprites/Boy/Emily_Boy_D2.png",
+        "When": {
+            "BoySkin": "Darker",
+            "BoyHair": "Emily",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler_Dark",
+        "FromFile": "assets/Sprites/Boy/Haley_Boy_D2.png",
+        "When": {
+            "BoySkin": "Darker",
+            "BoyHair": "Haley",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler_Dark",
+        "FromFile": "assets/Sprites/Boy/Leah_Boy_D2.png",
+        "When": {
+            "BoySkin": "Darker",
+            "BoyHair": "Leah",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler_Dark",
+        "FromFile": "assets/Sprites/Boy/Maru_Boy_D2.png",
+        "When": {
+            "BoySkin": "Darker",
+            "BoyHair": "Maru",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler_Dark",
+        "FromFile": "assets/Sprites/Boy/Penny_Boy_D2.png",
+        "When": {
+            "BoySkin": "Darker",
+            "BoyHair": "Penny",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler_Dark",
+        "FromFile": "assets/Sprites/Boy/Sam_Boy_D2.png",
+        "When": {
+            "BoySkin": "Darker",
+            "BoyHair": "Sam",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler_Dark",
+        "FromFile": "assets/Sprites/Boy/Sebastian_Boy_D2.png",
+        "When": {
+            "BoySkin": "Darker",
+            "BoyHair": "Sebastian",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler_Dark",
+        "FromFile": "assets/Sprites/Boy/Shane_Boy_D2.png",
+        "When": {
+            "BoySkin": "Darker",
+            "BoyHair": "Shane",
+        }
+    },
+
+
+/////////////////		
+	
+	//Girl Light
+{
+    "Action": "Load",
+    "Target": "Characters/Toddler_Girl",
+    "FromFile": "assets/Sprites/Girl/Vanilla_Girl_W.png",
+    "When": {
+        "GirlSkin": "Light",
+        "GirlHair": "Vanilla",
+    }
+},
+{
+    "Action": "Load",
+    "Target": "Characters/Toddler_Girl",
+    "FromFile": "assets/Sprites/Girl/Abigail_Girl_W.png",
+    "When": {
+        "GirlSkin": "Light",
+        "GirlHair": "Abigail",
+    }
+},
+{
+    "Action": "Load",
+    "Target": "Characters/Toddler_Girl",
+    "FromFile": "assets/Sprites/Girl/Alex_Girl_W.png",
+    "When": {
+        "GirlSkin": "Light",
+        "GirlHair": "Alex",
+    }
+},
+{
+    "Action": "Load",
+    "Target": "Characters/Toddler_Girl",
+    "FromFile": "assets/Sprites/Girl/Elliott_Girl_W.png",
+    "When": {
+        "GirlSkin": "Light",
+        "GirlHair": "Elliott",
+    }
+},
+{
+    "Action": "Load",
+    "Target": "Characters/Toddler_Girl",
+    "FromFile": "assets/Sprites/Girl/Emily_Girl_W.png",
+    "When": {
+        "GirlSkin": "Light",
+        "GirlHair": "Emily",
+    }
+},
+{
+    "Action": "Load",
+    "Target": "Characters/Toddler_Girl",
+    "FromFile": "assets/Sprites/Girl/Haley_Girl_W.png",
+    "When": {
+        "GirlSkin": "Light",
+        "GirlHair": "Haley",
+    }
+},
+{
+    "Action": "Load",
+    "Target": "Characters/Toddler_Girl",
+    "FromFile": "assets/Sprites/Girl/Leah_Girl_W.png",
+    "When": {
+        "GirlSkin": "Light",
+        "GirlHair": "Leah",
+    }
+},
+{
+    "Action": "Load",
+    "Target": "Characters/Toddler_Girl",
+    "FromFile": "assets/Sprites/Girl/Maru_Girl_W.png",
+    "When": {
+        "GirlSkin": "Light",
+        "GirlHair": "Maru",
+    }
+},
+{
+    "Action": "Load",
+    "Target": "Characters/Toddler_Girl",
+    "FromFile": "assets/Sprites/Girl/Penny_Girl_W.png",
+    "When": {
+        "GirlSkin": "Light",
+        "GirlHair": "Penny",
+    }
+},
+{
+    "Action": "Load",
+    "Target": "Characters/Toddler_Girl",
+    "FromFile": "assets/Sprites/Girl/Sam_Girl_W.png",
+    "When": {
+        "GirlSkin": "Light",
+        "GirlHair": "Sam",
+    }
+},
+{
+    "Action": "Load",
+    "Target": "Characters/Toddler_Girl",
+    "FromFile": "assets/Sprites/Girl/Sebastian_Girl_W.png",
+    "When": {
+        "GirlSkin": "Light",
+        "GirlHair": "Sebastian",
+    }
+},
+{
+    "Action": "Load",
+    "Target": "Characters/Toddler_Girl",
+    "FromFile": "assets/Sprites/Girl/Shane_Girl_W.png",
+    "When": {
+        "GirlSkin": "Light",
+        "GirlHair": "Shane",
+    }
+},  
+	//Girl Dark
+
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler_Girl",
+        "FromFile": "assets/Sprites/Girl/Vanilla_Girl_D.png",
+        "When": {
+            "GirlSkin": "Dark",
+            "GirlHair": "Vanilla",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler_Girl",
+        "FromFile": "assets/Sprites/Girl/Abigail_Girl_D.png",
+        "When": {
+            "GirlSkin": "Dark",
+            "GirlHair": "Abigail",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler_Girl",
+        "FromFile": "assets/Sprites/Girl/Alex_Girl_D.png",
+        "When": {
+            "GirlSkin": "Dark",
+            "GirlHair": "Alex",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler_Girl",
+        "FromFile": "assets/Sprites/Girl/Elliott_Girl_D.png",
+        "When": {
+            "GirlSkin": "Dark",
+            "GirlHair": "Elliott",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler_Girl",
+        "FromFile": "assets/Sprites/Girl/Emily_Girl_D.png",
+        "When": {
+            "GirlSkin": "Dark",
+            "GirlHair": "Emily",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler_Girl",
+        "FromFile": "assets/Sprites/Girl/Haley_Girl_D.png",
+        "When": {
+            "GirlSkin": "Dark",
+            "GirlHair": "Haley",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler_Girl",
+        "FromFile": "assets/Sprites/Girl/Leah_Girl_D.png",
+        "When": {
+            "GirlSkin": "Dark",
+            "GirlHair": "Leah",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler_Girl",
+        "FromFile": "assets/Sprites/Girl/Maru_Girl_D.png",
+        "When": {
+            "GirlSkin": "Dark",
+            "GirlHair": "Maru",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler_Girl",
+        "FromFile": "assets/Sprites/Girl/Penny_Girl_D.png",
+        "When": {
+            "GirlSkin": "Dark",
+            "GirlHair": "Penny",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler_Girl",
+        "FromFile": "assets/Sprites/Girl/Sam_Girl_D.png",
+        "When": {
+            "GirlSkin": "Dark",
+            "GirlHair": "Sam",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler_Girl",
+        "FromFile": "assets/Sprites/Girl/Sebastian_Girl_D.png",
+        "When": {
+            "GirlSkin": "Dark",
+            "GirlHair": "Sebastian",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler_Girl",
+        "FromFile": "assets/Sprites/Girl/Shane_Girl_D.png",
+        "When": {
+            "GirlSkin": "Dark",
+            "GirlHair": "Shane",
+        }
+    },
+	//
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler_Girl_Dark",
+        "FromFile": "assets/Sprites/Girl/Vanilla_Girl_D.png",
+        "When": {
+            "GirlSkin": "Dark",
+            "GirlHair": "Vanilla",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler_Girl_Dark",
+        "FromFile": "assets/Sprites/Girl/Abigail_Girl_D.png",
+        "When": {
+            "GirlSkin": "Dark",
+            "GirlHair": "Abigail",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler_Girl_Dark",
+        "FromFile": "assets/Sprites/Girl/Alex_Girl_D.png",
+        "When": {
+            "GirlSkin": "Dark",
+            "GirlHair": "Alex",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler_Girl_Dark",
+        "FromFile": "assets/Sprites/Girl/Elliott_Girl_D.png",
+        "When": {
+            "GirlSkin": "Dark",
+            "GirlHair": "Elliott",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler_Girl_Dark",
+        "FromFile": "assets/Sprites/Girl/Emily_Girl_D.png",
+        "When": {
+            "GirlSkin": "Dark",
+            "GirlHair": "Emily",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler_Girl_Dark",
+        "FromFile": "assets/Sprites/Girl/Haley_Girl_D.png",
+        "When": {
+            "GirlSkin": "Dark",
+            "GirlHair": "Haley",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler_Girl_Dark",
+        "FromFile": "assets/Sprites/Girl/Leah_Girl_D.png",
+        "When": {
+            "GirlSkin": "Dark",
+            "GirlHair": "Leah",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler_Girl_Dark",
+        "FromFile": "assets/Sprites/Girl/Maru_Girl_D.png",
+        "When": {
+            "GirlSkin": "Dark",
+            "GirlHair": "Maru",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler_Girl_Dark",
+        "FromFile": "assets/Sprites/Girl/Penny_Girl_D.png",
+        "When": {
+            "GirlSkin": "Dark",
+            "GirlHair": "Penny",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler_Girl_Dark",
+        "FromFile": "assets/Sprites/Girl/Sam_Girl_D.png",
+        "When": {
+            "GirlSkin": "Dark",
+            "GirlHair": "Sam",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler_Girl_Dark",
+        "FromFile": "assets/Sprites/Girl/Sebastian_Girl_D.png",
+        "When": {
+            "GirlSkin": "Dark",
+            "GirlHair": "Sebastian",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler_Girl_Dark",
+        "FromFile": "assets/Sprites/Girl/Shane_Girl_D.png",
+        "When": {
+            "GirlSkin": "Dark",
+            "GirlHair": "Shane",
+        }
+    },
+	//Girl Darker
+
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler_Girl",
+        "FromFile": "assets/Sprites/Girl/Vanilla_Girl_D2.png",
+        "When": {
+            "GirlSkin": "Darker",
+            "GirlHair": "Vanilla",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler_Girl",
+        "FromFile": "assets/Sprites/Girl/Abigail_Girl_D2.png",
+        "When": {
+            "GirlSkin": "Darker",
+            "GirlHair": "Abigail",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler_Girl",
+        "FromFile": "assets/Sprites/Girl/Alex_Girl_D2.png",
+        "When": {
+            "GirlSkin": "Darker",
+            "GirlHair": "Alex",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler_Girl",
+        "FromFile": "assets/Sprites/Girl/Elliott_Girl_D2.png",
+        "When": {
+            "GirlSkin": "Darker",
+            "GirlHair": "Elliott",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler_Girl",
+        "FromFile": "assets/Sprites/Girl/Emily_Girl_D2.png",
+        "When": {
+            "GirlSkin": "Darker",
+            "GirlHair": "Emily",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler_Girl",
+        "FromFile": "assets/Sprites/Girl/Haley_Girl_D2.png",
+        "When": {
+            "GirlSkin": "Darker",
+            "GirlHair": "Haley",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler_Girl",
+        "FromFile": "assets/Sprites/Girl/Leah_Girl_D2.png",
+        "When": {
+            "GirlSkin": "Darker",
+            "GirlHair": "Leah",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler_Girl",
+        "FromFile": "assets/Sprites/Girl/Maru_Girl_D2.png",
+        "When": {
+            "GirlSkin": "Darker",
+            "GirlHair": "Maru",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler_Girl",
+        "FromFile": "assets/Sprites/Girl/Penny_Girl_D2.png",
+        "When": {
+            "GirlSkin": "Darker",
+            "GirlHair": "Penny",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler_Girl",
+        "FromFile": "assets/Sprites/Girl/Sam_Girl_D2.png",
+        "When": {
+            "GirlSkin": "Darker",
+            "GirlHair": "Sam",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler_Girl",
+        "FromFile": "assets/Sprites/Girl/Sebastian_Girl_D2.png",
+        "When": {
+            "GirlSkin": "Darker",
+            "GirlHair": "Sebastian",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler_Girl",
+        "FromFile": "assets/Sprites/Girl/Shane_Girl_D2.png",
+        "When": {
+            "GirlSkin": "Darker",
+            "GirlHair": "Shane",
+        }
+    },
+	//
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler_Girl_Dark",
+        "FromFile": "assets/Sprites/Girl/Vanilla_Girl_D2.png",
+        "When": {
+            "GirlSkin": "Darker",
+            "GirlHair": "Vanilla",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler_Girl_Dark",
+        "FromFile": "assets/Sprites/Girl/Abigail_Girl_D2.png",
+        "When": {
+            "GirlSkin": "Darker",
+            "GirlHair": "Abigail",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler_Girl_Dark",
+        "FromFile": "assets/Sprites/Girl/Alex_Girl_D2.png",
+        "When": {
+            "GirlSkin": "Darker",
+            "GirlHair": "Alex",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler_Girl_Dark",
+        "FromFile": "assets/Sprites/Girl/Elliott_Girl_D2.png",
+        "When": {
+            "GirlSkin": "Darker",
+            "GirlHair": "Elliott",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler_Girl_Dark",
+        "FromFile": "assets/Sprites/Girl/Emily_Girl_D2.png",
+        "When": {
+            "GirlSkin": "Darker",
+            "GirlHair": "Emily",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler_Girl_Dark",
+        "FromFile": "assets/Sprites/Girl/Haley_Girl_D2.png",
+        "When": {
+            "GirlSkin": "Darker",
+            "GirlHair": "Haley",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler_Girl_Dark",
+        "FromFile": "assets/Sprites/Girl/Leah_Girl_D2.png",
+        "When": {
+            "GirlSkin": "Darker",
+            "GirlHair": "Leah",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler_Girl_Dark",
+        "FromFile": "assets/Sprites/Girl/Maru_Girl_D2.png",
+        "When": {
+            "GirlSkin": "Darker",
+            "GirlHair": "Maru",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler_Girl_Dark",
+        "FromFile": "assets/Sprites/Girl/Penny_Girl_D2.png",
+        "When": {
+            "GirlSkin": "Darker",
+            "GirlHair": "Penny",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler_Girl_Dark",
+        "FromFile": "assets/Sprites/Girl/Sam_Girl_D2.png",
+        "When": {
+            "GirlSkin": "Darker",
+            "GirlHair": "Sam",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler_Girl_Dark",
+        "FromFile": "assets/Sprites/Girl/Sebastian_Girl_D2.png",
+        "When": {
+            "GirlSkin": "Darker",
+            "GirlHair": "Sebastian",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Toddler_Girl_Dark",
+        "FromFile": "assets/Sprites/Girl/Shane_Girl_D2.png",
+        "When": {
+            "GirlSkin": "Darker",
+            "GirlHair": "Shane",
+        }
+    },	
+	
+/////////////////
+////////////Load Baby Sprite////////////////////////
+//Baby Light
+    {
+        "Action": "Load",
+        "Target": "Characters/Baby",
+        "FromFile": "assets/Babies/Light/Vanilla.png",
+        "When": {
+            "LightBaby": "Vanilla",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Baby",
+        "FromFile": "assets/Babies/Light/Abigail.png",
+        "When": {
+            "LightBaby": "Abigail",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Baby",
+        "FromFile": "assets/Babies/Light/Alex.png",
+        "When": {
+            "LightBaby": "Alex",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Baby",
+        "FromFile": "assets/Babies/Light/Elliott.png",
+        "When": {
+            "LightBaby": "Elliott",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Baby",
+        "FromFile": "assets/Babies/Light/Emily.png",
+        "When": {
+            "LightBaby": "Emily",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Baby",
+        "FromFile": "assets/Babies/Light/Haley.png",
+        "When": {
+            "LightBaby": "Haley",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Baby",
+        "FromFile": "assets/Babies/Light/Leah.png",
+        "When": {
+            "LightBaby": "Leah",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Baby",
+        "FromFile": "assets/Babies/Light/Maru.png",
+        "When": {
+            "LightBaby": "Maru",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Baby",
+        "FromFile": "assets/Babies/Light/Penny.png",
+        "When": {
+            "LightBaby": "Penny",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Baby",
+        "FromFile": "assets/Babies/Light/Sam.png",
+        "When": {
+            "LightBaby": "Sam",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Baby",
+        "FromFile": "assets/Babies/Light/Sebastian.png",
+        "When": {
+            "LightBaby": "Sebastian",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Baby",
+        "FromFile": "assets/Babies/Light/Shane.png",
+        "When": {
+            "LightBaby": "Shane",
+        }
+    },
+
+//Baby Dark
+    {
+        "Action": "Load",
+        "Target": "Characters/Baby_Dark",
+        "FromFile": "assets/Babies/Dark/Vanilla.png",
+        "When": {
+            "DarkBaby": "Vanilla",
+			"DarkerBabySkin": "false",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Baby_Dark",
+        "FromFile": "assets/Babies/Dark/Abigail.png",
+        "When": {
+            "DarkBaby": "Abigail",
+			"DarkerBabySkin": "false",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Baby_Dark",
+        "FromFile": "assets/Babies/Dark/Alex.png",
+        "When": {
+            "DarkBaby": "Alex",
+			"DarkerBabySkin": "false",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Baby_Dark",
+        "FromFile": "assets/Babies/Dark/Elliott.png",
+        "When": {
+            "DarkBaby": "Elliott",
+			"DarkerBabySkin": "false",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Baby_Dark",
+        "FromFile": "assets/Babies/Dark/Emily.png",
+        "When": {
+            "DarkBaby": "Emily",
+			"DarkerBabySkin": "false",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Baby_Dark",
+        "FromFile": "assets/Babies/Dark/Haley.png",
+        "When": {
+            "DarkBaby": "Haley",
+			"DarkerBabySkin": "false",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Baby_Dark",
+        "FromFile": "assets/Babies/Dark/Leah.png",
+        "When": {
+            "DarkBaby": "Leah",
+			"DarkerBabySkin": "false",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Baby_Dark",
+        "FromFile": "assets/Babies/Dark/Maru.png",
+        "When": {
+            "DarkBaby": "Maru",
+			"DarkerBabySkin": "false",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Baby_Dark",
+        "FromFile": "assets/Babies/Dark/Penny.png",
+        "When": {
+            "DarkBaby": "Penny",
+			"DarkerBabySkin": "false",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Baby_Dark",
+        "FromFile": "assets/Babies/Dark/Sam.png",
+        "When": {
+            "DarkBaby": "Sam",
+			"DarkerBabySkin": "false",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Baby_Dark",
+        "FromFile": "assets/Babies/Dark/Sebastian.png",
+        "When": {
+            "DarkBaby": "Sebastian",
+			"DarkerBabySkin": "false",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Baby_Dark",
+        "FromFile": "assets/Babies/Dark/Shane.png",
+        "When": {
+            "DarkBaby": "Shane",
+			"DarkerBabySkin": "false",
+        }
+    },
+//Baby Darker
+    {
+        "Action": "Load",
+        "Target": "Characters/Baby_Dark",
+        "FromFile": "assets/Babies/Darker/Vanilla.png",
+        "When": {
+            "DarkBaby": "Vanilla",
+			"DarkerBabySkin": "true",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Baby_Dark",
+        "FromFile": "assets/Babies/Darker/Abigail.png",
+        "When": {
+            "DarkBaby": "Abigail",
+			"DarkerBabySkin": "true",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Baby_Dark",
+        "FromFile": "assets/Babies/Darker/Alex.png",
+        "When": {
+            "DarkBaby": "Alex",
+			"DarkerBabySkin": "true",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Baby_Dark",
+        "FromFile": "assets/Babies/Darker/Elliott.png",
+        "When": {
+            "DarkBaby": "Elliott",
+			"DarkerBabySkin": "true",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Baby_Dark",
+        "FromFile": "assets/Babies/Darker/Emily.png",
+        "When": {
+            "DarkBaby": "Emily",
+			"DarkerBabySkin": "true",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Baby_Dark",
+        "FromFile": "assets/Babies/Darker/Haley.png",
+        "When": {
+            "DarkBaby": "Haley",
+			"DarkerBabySkin": "true",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Baby_Dark",
+        "FromFile": "assets/Babies/Darker/Leah.png",
+        "When": {
+            "DarkBaby": "Leah",
+			"DarkerBabySkin": "true",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Baby_Dark",
+        "FromFile": "assets/Babies/Darker/Maru.png",
+        "When": {
+            "DarkBaby": "Maru",
+			"DarkerBabySkin": "true",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Baby_Dark",
+        "FromFile": "assets/Babies/Darker/Penny.png",
+        "When": {
+            "DarkBaby": "Penny",
+			"DarkerBabySkin": "true",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Baby_Dark",
+        "FromFile": "assets/Babies/Darker/Sam.png",
+        "When": {
+            "DarkBaby": "Sam",
+			"DarkerBabySkin": "true",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Baby_Dark",
+        "FromFile": "assets/Babies/Darker/Sebastian.png",
+        "When": {
+            "DarkBaby": "Sebastian",
+			"DarkerBabySkin": "true",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Characters/Baby_Dark",
+        "FromFile": "assets/Babies/Darker/Shane.png",
+        "When": {
+            "DarkBaby": "Shane",
+			"DarkerBabySkin": "true",
+        }
+    },	
+	
+////////////	
+	
+//Load UCT Portrait//////////////////////////////////	
+    //UCT Portrait
+	{
+        "Action": "Load",
+        "Target": "Portraits/{{BoyName}}",
+        "FromFile": "assets/Portraits/Boy/Vanilla_Boy_W.png",
+        "When": {
+            "BoySkin": "Light",
+            "BoyHair": "Vanilla",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Portraits/{{BoyName}}",
+        "FromFile": "assets/Portraits/Boy/Abigail_Boy_W.png",
+        "When": {
+            "BoySkin": "Light",
+            "BoyHair": "Abigail",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Portraits/{{BoyName}}",
+        "FromFile": "assets/Portraits/Boy/Alex_Boy_W.png",
+        "When": {
+            "BoySkin": "Light",
+            "BoyHair": "Alex",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Portraits/{{BoyName}}",
+        "FromFile": "assets/Portraits/Boy/Elliott_Boy_W.png",
+        "When": {
+            "BoySkin": "Light",
+            "BoyHair": "Elliott",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Portraits/{{BoyName}}",
+        "FromFile": "assets/Portraits/Boy/Emily_Boy_W.png",
+        "When": {
+            "BoySkin": "Light",
+            "BoyHair": "Emily",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Portraits/{{BoyName}}",
+        "FromFile": "assets/Portraits/Boy/Haley_Boy_W.png",
+        "When": {
+            "BoySkin": "Light",
+            "BoyHair": "Haley",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Portraits/{{BoyName}}",
+        "FromFile": "assets/Portraits/Boy/Leah_Boy_W.png",
+        "When": {
+            "BoySkin": "Light",
+            "BoyHair": "Leah",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Portraits/{{BoyName}}",
+        "FromFile": "assets/Portraits/Boy/Maru_Boy_W.png",
+        "When": {
+            "BoySkin": "Light",
+            "BoyHair": "Maru",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Portraits/{{BoyName}}",
+        "FromFile": "assets/Portraits/Boy/Penny_Boy_W.png",
+        "When": {
+            "BoySkin": "Light",
+            "BoyHair": "Penny",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Portraits/{{BoyName}}",
+        "FromFile": "assets/Portraits/Boy/Sam_Boy_W.png",
+        "When": {
+            "BoySkin": "Light",
+            "BoyHair": "Sam",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Portraits/{{BoyName}}",
+        "FromFile": "assets/Portraits/Boy/Sebastian_Boy_W.png",
+        "When": {
+            "BoySkin": "Light",
+            "BoyHair": "Sebastian",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Portraits/{{BoyName}}",
+        "FromFile": "assets/Portraits/Boy/Shane_Boy_W.png",
+        "When": {
+            "BoySkin": "Light",
+            "BoyHair": "Shane",
+        }
+    },
+		//Boy Dark
+    {
+        "Action": "Load",
+        "Target": "Portraits/{{BoyName}}",
+        "FromFile": "assets/Portraits/Boy/Vanilla_Boy_D.png",
+        "When": {
+            "BoySkin": "Dark",
+            "BoyHair": "Vanilla",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Portraits/{{BoyName}}",
+        "FromFile": "assets/Portraits/Boy/Abigail_Boy_D.png",
+        "When": {
+            "BoySkin": "Dark",
+            "BoyHair": "Abigail",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Portraits/{{BoyName}}",
+        "FromFile": "assets/Portraits/Boy/Alex_Boy_D.png",
+        "When": {
+            "BoySkin": "Dark",
+            "BoyHair": "Alex",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Portraits/{{BoyName}}",
+        "FromFile": "assets/Portraits/Boy/Elliott_Boy_D.png",
+        "When": {
+            "BoySkin": "Dark",
+            "BoyHair": "Elliott",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Portraits/{{BoyName}}",
+        "FromFile": "assets/Portraits/Boy/Emily_Boy_D.png",
+        "When": {
+            "BoySkin": "Dark",
+            "BoyHair": "Emily",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Portraits/{{BoyName}}",
+        "FromFile": "assets/Portraits/Boy/Haley_Boy_D.png",
+        "When": {
+            "BoySkin": "Dark",
+            "BoyHair": "Haley",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Portraits/{{BoyName}}",
+        "FromFile": "assets/Portraits/Boy/Leah_Boy_D.png",
+        "When": {
+            "BoySkin": "Dark",
+            "BoyHair": "Leah",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Portraits/{{BoyName}}",
+        "FromFile": "assets/Portraits/Boy/Maru_Boy_D.png",
+        "When": {
+            "BoySkin": "Dark",
+            "BoyHair": "Maru",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Portraits/{{BoyName}}",
+        "FromFile": "assets/Portraits/Boy/Penny_Boy_D.png",
+        "When": {
+            "BoySkin": "Dark",
+            "BoyHair": "Penny",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Portraits/{{BoyName}}",
+        "FromFile": "assets/Portraits/Boy/Sam_Boy_D.png",
+        "When": {
+            "BoySkin": "Dark",
+            "BoyHair": "Sam",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Portraits/{{BoyName}}",
+        "FromFile": "assets/Portraits/Boy/Sebastian_Boy_D.png",
+        "When": {
+            "BoySkin": "Dark",
+            "BoyHair": "Sebastian",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Portraits/{{BoyName}}",
+        "FromFile": "assets/Portraits/Boy/Shane_Boy_D.png",
+        "When": {
+            "BoySkin": "Dark",
+            "BoyHair": "Shane",
+        }
+    },
+	//Boy Darker
+    {
+        "Action": "Load",
+        "Target": "Portraits/{{BoyName}}",
+        "FromFile": "assets/Portraits/Boy/Vanilla_Boy_D2.png",
+        "When": {
+            "BoySkin": "Darker",
+            "BoyHair": "Vanilla",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Portraits/{{BoyName}}",
+        "FromFile": "assets/Portraits/Boy/Abigail_Boy_D2.png",
+        "When": {
+            "BoySkin": "Darker",
+            "BoyHair": "Abigail",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Portraits/{{BoyName}}",
+        "FromFile": "assets/Portraits/Boy/Alex_Boy_D2.png",
+        "When": {
+            "BoySkin": "Darker",
+            "BoyHair": "Alex",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Portraits/{{BoyName}}",
+        "FromFile": "assets/Portraits/Boy/Elliott_Boy_D2.png",
+        "When": {
+            "BoySkin": "Darker",
+            "BoyHair": "Elliott",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Portraits/{{BoyName}}",
+        "FromFile": "assets/Portraits/Boy/Emily_Boy_D2.png",
+        "When": {
+            "BoySkin": "Darker",
+            "BoyHair": "Emily",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Portraits/{{BoyName}}",
+        "FromFile": "assets/Portraits/Boy/Haley_Boy_D2.png",
+        "When": {
+            "BoySkin": "Darker",
+            "BoyHair": "Haley",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Portraits/{{BoyName}}",
+        "FromFile": "assets/Portraits/Boy/Leah_Boy_D2.png",
+        "When": {
+            "BoySkin": "Darker",
+            "BoyHair": "Leah",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Portraits/{{BoyName}}",
+        "FromFile": "assets/Portraits/Boy/Maru_Boy_D2.png",
+        "When": {
+            "BoySkin": "Darker",
+            "BoyHair": "Maru",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Portraits/{{BoyName}}",
+        "FromFile": "assets/Portraits/Boy/Penny_Boy_D2.png",
+        "When": {
+            "BoySkin": "Darker",
+            "BoyHair": "Penny",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Portraits/{{BoyName}}",
+        "FromFile": "assets/Portraits/Boy/Sam_Boy_D2.png",
+        "When": {
+            "BoySkin": "Darker",
+            "BoyHair": "Sam",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Portraits/{{BoyName}}",
+        "FromFile": "assets/Portraits/Boy/Sebastian_Boy_D2.png",
+        "When": {
+            "BoySkin": "Darker",
+            "BoyHair": "Sebastian",
+        }
+    },
+    {
+        "Action": "Load",
+        "Target": "Portraits/{{BoyName}}",
+        "FromFile": "assets/Portraits/Boy/Shane_Boy_D2.png",
+        "When": {
+            "BoySkin": "Darker",
+            "BoyHair": "Shane",
+        }
+    },	
+	
+	
+	
+	//Girl Light
+	{
+      "Action": "Load",
+      "Target": "Portraits/{{GirlName}}",
+      "FromFile": "assets/Portraits/Girl/Vanilla_Girl_W.png",
+	  "When": {
+        "GirlSkin": "Light",
+		"GirlHair": "Vanilla",
+	  }
+    },
+	{
+      "Action": "Load",
+      "Target": "Portraits/{{GirlName}}",
+      "FromFile": "assets/Portraits/Girl/Abigail_Girl_W.png",
+	  "When": {
+        "GirlSkin": "Light",
+		"GirlHair": "Abigail",
+	  }
+    },
+	{
+      "Action": "Load",
+      "Target": "Portraits/{{GirlName}}",
+      "FromFile": "assets/Portraits/Girl/Alex_Girl_W.png",
+	  "When": {
+        "GirlSkin": "Light",
+		"GirlHair": "Alex",
+	  }
+    },
+	{
+      "Action": "Load",
+      "Target": "Portraits/{{GirlName}}",
+      "FromFile": "assets/Portraits/Girl/Elliott_Girl_W.png",
+	  "When": {
+        "GirlSkin": "Light",
+		"GirlHair": "Elliott",
+	  }
+    },	
+	{
+      "Action": "Load",
+      "Target": "Portraits/{{GirlName}}",
+      "FromFile": "assets/Portraits/Girl/Emily_Girl_W.png",
+	  "When": {
+        "GirlSkin": "Light",
+		"GirlHair": "Emily",
+	  }
+    },
+	{
+      "Action": "Load",
+      "Target": "Portraits/{{GirlName}}",
+      "FromFile": "assets/Portraits/Girl/Haley_Girl_W.png",
+	  "When": {
+        "GirlSkin": "Light",
+		"GirlHair": "Haley",
+	  }
+    },
+	{
+      "Action": "Load",
+      "Target": "Portraits/{{GirlName}}",
+      "FromFile": "assets/Portraits/Girl/Leah_Girl_W.png",
+	  "When": {
+        "GirlSkin": "Light",
+		"GirlHair": "Leah",
+	  }
+    },
+	{
+      "Action": "Load",
+      "Target": "Portraits/{{GirlName}}",
+      "FromFile": "assets/Portraits/Girl/Maru_Girl_W.png",
+	  "When": {
+        "GirlSkin": "Light",
+		"GirlHair": "Maru",
+	  }
+    },	
+	{
+      "Action": "Load",
+      "Target": "Portraits/{{GirlName}}",
+      "FromFile": "assets/Portraits/Girl/Penny_Girl_W.png",
+	  "When": {
+        "GirlSkin": "Light",
+		"GirlHair": "Penny",
+	  }
+    },
+	{
+      "Action": "Load",
+      "Target": "Portraits/{{GirlName}}",
+      "FromFile": "assets/Portraits/Girl/Sam_Girl_W.png",
+	  "When": {
+        "GirlSkin": "Light",
+		"GirlHair": "Sam",
+	  }
+    },
+	{
+      "Action": "Load",
+      "Target": "Portraits/{{GirlName}}",
+      "FromFile": "assets/Portraits/Girl/Sebastian_Girl_W.png",
+	  "When": {
+        "GirlSkin": "Light",
+		"GirlHair": "Sebastian",
+	  }
+    },
+	{
+      "Action": "Load",
+      "Target": "Portraits/{{GirlName}}",
+      "FromFile": "assets/Portraits/Girl/Shane_Girl_W.png",
+	  "When": {
+        "GirlSkin": "Light",
+		"GirlHair": "Shane",
+	  }
+    },	
+	
+	//Girl Dark
+{
+    "Action": "Load",
+    "Target": "Portraits/{{GirlName}}",
+    "FromFile": "assets/Portraits/Girl/Vanilla_Girl_D.png",
+    "When": {
+        "GirlSkin": "Dark",
+        "GirlHair": "Vanilla",
+    }
+},
+{
+    "Action": "Load",
+    "Target": "Portraits/{{GirlName}}",
+    "FromFile": "assets/Portraits/Girl/Abigail_Girl_D.png",
+    "When": {
+        "GirlSkin": "Dark",
+        "GirlHair": "Abigail",
+    }
+},
+{
+    "Action": "Load",
+    "Target": "Portraits/{{GirlName}}",
+    "FromFile": "assets/Portraits/Girl/Alex_Girl_D.png",
+    "When": {
+        "GirlSkin": "Dark",
+        "GirlHair": "Alex",
+    }
+},
+{
+    "Action": "Load",
+    "Target": "Portraits/{{GirlName}}",
+    "FromFile": "assets/Portraits/Girl/Elliott_Girl_D.png",
+    "When": {
+        "GirlSkin": "Dark",
+        "GirlHair": "Elliott",
+    }
+},
+{
+    "Action": "Load",
+    "Target": "Portraits/{{GirlName}}",
+    "FromFile": "assets/Portraits/Girl/Emily_Girl_D.png",
+    "When": {
+        "GirlSkin": "Dark",
+        "GirlHair": "Emily",
+    }
+},
+{
+    "Action": "Load",
+    "Target": "Portraits/{{GirlName}}",
+    "FromFile": "assets/Portraits/Girl/Haley_Girl_D.png",
+    "When": {
+        "GirlSkin": "Dark",
+        "GirlHair": "Haley",
+    }
+},
+{
+    "Action": "Load",
+    "Target": "Portraits/{{GirlName}}",
+    "FromFile": "assets/Portraits/Girl/Leah_Girl_D.png",
+    "When": {
+        "GirlSkin": "Dark",
+        "GirlHair": "Leah",
+    }
+},
+{
+    "Action": "Load",
+    "Target": "Portraits/{{GirlName}}",
+    "FromFile": "assets/Portraits/Girl/Maru_Girl_D.png",
+    "When": {
+        "GirlSkin": "Dark",
+        "GirlHair": "Maru",
+    }
+},
+{
+    "Action": "Load",
+    "Target": "Portraits/{{GirlName}}",
+    "FromFile": "assets/Portraits/Girl/Penny_Girl_D.png",
+    "When": {
+        "GirlSkin": "Dark",
+        "GirlHair": "Penny",
+    }
+},
+{
+    "Action": "Load",
+    "Target": "Portraits/{{GirlName}}",
+    "FromFile": "assets/Portraits/Girl/Sam_Girl_D.png",
+    "When": {
+        "GirlSkin": "Dark",
+        "GirlHair": "Sam",
+    }
+},
+{
+    "Action": "Load",
+    "Target": "Portraits/{{GirlName}}",
+    "FromFile": "assets/Portraits/Girl/Sebastian_Girl_D.png",
+    "When": {
+        "GirlSkin": "Dark",
+        "GirlHair": "Sebastian",
+    }
+},
+{
+      "Action": "Load",
+      "Target": "Portraits/{{GirlName}}",
+      "FromFile": "assets/Portraits/Girl/Shane_Girl_D.png",
+	  "When": {
+        "GirlSkin": "Dark",
+		"GirlHair": "Shane",
+	  }
+},
+	//Girl Darker
+{
+    "Action": "Load",
+    "Target": "Portraits/{{GirlName}}",
+    "FromFile": "assets/Portraits/Girl/Vanilla_Girl_D2.png",
+    "When": {
+        "GirlSkin": "Darker",
+        "GirlHair": "Vanilla",
+    }
+},
+{
+    "Action": "Load",
+    "Target": "Portraits/{{GirlName}}",
+    "FromFile": "assets/Portraits/Girl/Abigail_Girl_D2.png",
+    "When": {
+        "GirlSkin": "Darker",
+        "GirlHair": "Abigail",
+    }
+},
+{
+    "Action": "Load",
+    "Target": "Portraits/{{GirlName}}",
+    "FromFile": "assets/Portraits/Girl/Alex_Girl_D2.png",
+    "When": {
+        "GirlSkin": "Darker",
+        "GirlHair": "Alex",
+    }
+},
+{
+    "Action": "Load",
+    "Target": "Portraits/{{GirlName}}",
+    "FromFile": "assets/Portraits/Girl/Elliott_Girl_D2.png",
+    "When": {
+        "GirlSkin": "Darker",
+        "GirlHair": "Elliott",
+    }
+},
+{
+    "Action": "Load",
+    "Target": "Portraits/{{GirlName}}",
+    "FromFile": "assets/Portraits/Girl/Emily_Girl_D2.png",
+    "When": {
+        "GirlSkin": "Darker",
+        "GirlHair": "Emily",
+    }
+},
+{
+    "Action": "Load",
+    "Target": "Portraits/{{GirlName}}",
+    "FromFile": "assets/Portraits/Girl/Haley_Girl_D2.png",
+    "When": {
+        "GirlSkin": "Darker",
+        "GirlHair": "Haley",
+    }
+},
+{
+    "Action": "Load",
+    "Target": "Portraits/{{GirlName}}",
+    "FromFile": "assets/Portraits/Girl/Leah_Girl_D2.png",
+    "When": {
+        "GirlSkin": "Darker",
+        "GirlHair": "Leah",
+    }
+},
+{
+    "Action": "Load",
+    "Target": "Portraits/{{GirlName}}",
+    "FromFile": "assets/Portraits/Girl/Maru_Girl_D2.png",
+    "When": {
+        "GirlSkin": "Darker",
+        "GirlHair": "Maru",
+    }
+},
+{
+    "Action": "Load",
+    "Target": "Portraits/{{GirlName}}",
+    "FromFile": "assets/Portraits/Girl/Penny_Girl_D2.png",
+    "When": {
+        "GirlSkin": "Darker",
+        "GirlHair": "Penny",
+    }
+},
+{
+    "Action": "Load",
+    "Target": "Portraits/{{GirlName}}",
+    "FromFile": "assets/Portraits/Girl/Sam_Girl_D2.png",
+    "When": {
+        "GirlSkin": "Darker",
+        "GirlHair": "Sam",
+    }
+},
+{
+    "Action": "Load",
+    "Target": "Portraits/{{GirlName}}",
+    "FromFile": "assets/Portraits/Girl/Sebastian_Girl_D2.png",
+    "When": {
+        "GirlSkin": "Darker",
+        "GirlHair": "Sebastian",
+    }
+},
+{
+      "Action": "Load",
+      "Target": "Portraits/{{GirlName}}",
+      "FromFile": "assets/Portraits/Girl/Shane_Girl_D2.png",
+	  "When": {
+        "GirlSkin": "Darker",
+		"GirlHair": "Shane",
+	  }
+},
+
+
+    ]
+}

@@ -1,0 +1,57 @@
+{
+	"Format": "2.0.0",
+    "Changes": [
+        {
+			"LogName": "Add Rooster Assets",
+			"Action": "Load",
+			"Target": "assets/rooster, assets/roosterchick, assets/shoprooster",
+			"FromFile": "assets/{{TargetWithoutPath}}.png"
+		},	
+		{
+            "LogName": "Animal Data",
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "Entries": {
+                "VoidPig": {
+                    "DisplayName": "Rooster",
+                    "House": "Coop",
+                    "Gender": "Male",
+                    "PurchasePrice": 18000,
+                    "ShopTexture": "assets/shoprooster",
+                    "Sound": "cluck",
+                    "ShopSourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 32,
+                        "Height": 16
+                    },
+                    "RequiredBuilding": "Deluxe Coop",
+                    "ShopDisplayName": "Rooster",
+                    "ShopDescription": "A male chicken. Doesn't lay eggs, but will dig up bait.",
+                    "ShopMissingBuildingDescription": "???",
+                    "BirthText": "A new Rooster has been born!",
+                    "DaysToMature": "4",
+                    "DaysToProduce": "1",
+                    "ProduceItemIDs": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemID": "774" //Wild Bait
+                        }
+                    ],
+                    "HarvestType": "DigUp",
+                    "HappinessDrain": 3,
+                    "GrassEatAmount": 1,
+                    "ShowSummitCredits": false,
+                    "CanGetPregnant": false,
+                    "BabiesFollowAdults": true,
+                    "Texture": "assets/rooster",
+                    "BabyTexture": "assets/roosterchick",
+                    "SpriteWidth": "16",
+                    "SpriteHeight": "16"
+                }
+            }
+        }
+    ]
+}

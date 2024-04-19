@@ -1,0 +1,12 @@
+{
+  "Name": "SnorlaxPlush",
+  "Author": "DGlaky",
+  "Version": "1.0.0",
+  "Description": "Replaces the sprite of the Lg. Futon bear plush to a snorlax plush",
+  "UniqueID": "DGlaky.SnorlaxPlush",
+  "MinimumApiVersion": "2.10.0",
+  "UpdateKeys": ["Nexus:22046"],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}

@@ -1,0 +1,11 @@
+{
+    "Name": "Wyrd's Seasonal Silos",
+    "Author": "logwyrd",
+    "Version": "2.0.0",
+    "Description": "Content Patcher mod that changes 1.6 Silos into a seasonal shorter form.",
+    "UniqueID": "logwyrd.WyrdsSeasonalSilos",
+    "UpdateKeys": ["Nexus:20786"],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

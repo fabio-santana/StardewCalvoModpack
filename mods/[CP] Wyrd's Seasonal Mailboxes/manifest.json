@@ -1,0 +1,11 @@
+{
+    "Name": "Wyrd's Seasonal Mailboxes",
+    "Author": "logwyrd",
+    "Version": "2.0.0",
+    "Description": "Content Patcher mod that changes 1.6 mailbox textures for farmhouse and cabins.",
+    "UniqueID": "logwyrd.WyrdsSeasonalMailboxes",
+    "UpdateKeys": [ "Nexus:20720" ],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

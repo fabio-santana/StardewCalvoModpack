@@ -1,0 +1,32 @@
+﻿{
+    /*********
+    ** Interface Genérica de Configuração
+    *********/
+    // texto do botão no final do menu de opções in-game
+    "button.mod-options": "Opções do Mod",
+
+    // interface da lista de mods
+    "list.editable-heading": "Configurar Mods",
+    "list.not-editable-heading": "Editável a partir da tela de título:",
+    "list.keybindings": "Atalhos",
+
+    // páginas de configuração de mods
+    "config.buttons.cancel": "Cancelar",
+    "config.buttons.reset-to-default": "Padrão",
+    "config.buttons.save": "Salvar",
+    "config.buttons.save-and-close": "Salvar e Fechar",
+
+    "config.rebind-key.title": "Reatribuindo chave: {{optionName}}",
+    "config.rebind-key.simple-instructions": "Pressione uma tecla para reatribuir",
+    "config.rebind-key.combo-instructions": "Pressione uma combinação de teclas para reatribuir",
+    "config.rebind-key.no-key": "(Nenhum)",
+
+
+    /*********
+    ** Opções de Configuração para o Próprio Menu de Configuração Genérica do Mod
+    *********/
+    "options.open-menu-key.name": "Chave de Abertura do Menu",
+    "options.open-menu-key.desc": "Uma tecla que abre o menu.",
+    "options.scroll-speed.name": "Velocidade de Rolagem",
+    "options.scroll-speed.desc": "O número de linhas de campo para compensar ao rolar um menu de configuração."
+}

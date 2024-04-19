@@ -1,0 +1,65 @@
+{
+  "DisableToolDeliveryService": false,
+  "DisableToolShipmentService": false,
+  "ToolShipmentServiceFee": 0,
+  "ToolShipmentServicePercentFee": 0,
+  "DisableQuestService": false,
+  "QuestServiceFee": 0,
+  "DisableGiftService": false,
+  "MinimumFriendshipPointsToSendGift": 0,
+  "GiftServiceFee": 0,
+  "GiftServicePercentFee": 0,
+  "GiftChoicePageSize": 5,
+  "EnableJealousyFromMailedGifts": false,
+  "EnableGiftToNpcWithMaxFriendship": false,
+  "ShowDialogOnItemDelivery": false,
+  "DisablePerPlayerConfig": false,
+  "EnableAskToUpgradeTool": false,
+  "PlayerRecoveryConfig": {
+    "-3962055542362609747": {
+      "PlayerName": "Meurer",
+      "DisableRecoveryConfigInGameChanges": false,
+      "EnableRecoveryService": false,
+      "RecoverAllItems": false,
+      "RecoverForFree": false,
+      "DisableClearLostItemsOnRandomRecovery": false
+    },
+    "-7313876605039892460": {
+      "PlayerName": "Meurer",
+      "DisableRecoveryConfigInGameChanges": false,
+      "EnableRecoveryService": false,
+      "RecoverAllItems": false,
+      "RecoverForFree": false,
+      "DisableClearLostItemsOnRandomRecovery": false
+    },
+    "6159874903539487235": {
+      "PlayerName": "",
+      "DisableRecoveryConfigInGameChanges": false,
+      "EnableRecoveryService": false,
+      "RecoverAllItems": false,
+      "RecoverForFree": false,
+      "DisableClearLostItemsOnRandomRecovery": false
+    },
+    "2920789153231980267": {
+      "PlayerName": "Exconcs",
+      "DisableRecoveryConfigInGameChanges": false,
+      "EnableRecoveryService": false,
+      "RecoverAllItems": false,
+      "RecoverForFree": false,
+      "DisableClearLostItemsOnRandomRecovery": false
+    },
+    "6953213764315761758": {
+      "PlayerName": "",
+      "DisableRecoveryConfigInGameChanges": false,
+      "EnableRecoveryService": true,
+      "RecoverAllItems": true,
+      "RecoverForFree": false,
+      "DisableClearLostItemsOnRandomRecovery": false
+    }
+  },
+  "DisableRecoveryConfigInGameChanges": false,
+  "EnableRecoveryService": false,
+  "RecoverAllItems": false,
+  "RecoverForFree": false,
+  "DisableClearLostItemsOnRandomRecovery": false
+}

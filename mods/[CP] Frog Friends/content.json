@@ -1,0 +1,971 @@
+{
+    "Format": "2.0.0",
+    "Changes": [
+        {
+            "LogName": "Load data for American Green Tree Frog",
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "Entries": {
+                "American Green Tree Frog": {
+                    "DisplayName": "American Green Tree Frog",
+                    "House": "Coop",
+                    "Gender": "MaleOrFemale",
+                    "PurchasePrice": 1000,
+                    "SellPrice": 2000,
+                    "ShopTexture": "Animals/{{ModID}}-American Green Tree Frog Icon",
+                    "ShopSourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 32,
+                        "Height": 16
+                    },
+                    "RequiredBuilding": "Coop",
+                    "ShopDisplayName": "American Green Tree Frog",
+                    "ShopDescription": "These industrious amphibian friends will find ferns and jade for you!",
+                    "DaysToMature": "1",
+                    "ProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "(O)259"
+                        }
+                    ],
+                    "DeluxeProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "(O)70"
+                        }
+                    ],
+                    "DeluxeProduceMinimumFriendship": 200,
+                    "DeluxeProduceCareDivisor": 4750.0,
+                    "DeluxeProduceLuckMultiplier": 1.01,
+                    "DaysToProduce": "1",
+                    "HarvestType": "DropOvernight",
+                    "HarvestTool": "null",
+                    "Sound": "croak",
+                    "Texture": "Animals/{{ModID}}-American Green Tree Frog",
+                    "SpriteWidth": "16",
+                    "SpriteHeight": "16",
+                    "SwimOffset": {
+                        "X": 0,
+                        "Y": 112
+                    },
+                    "CanSwim": true,
+                    "ShowInSummitCredits": true
+                }
+            }
+        },
+        {
+            "LogName": "Load data for Red-Eyed Tree Frog",
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "Entries": {
+                "Red-Eyed Tree Frog": {
+                    "DisplayName": "Red-Eyed Tree Frog",
+                    "House": "Coop",
+                    "Gender": "MaleOrFemale",
+                    "PurchasePrice": 1000,
+                    "SellPrice": 2000,
+                    "ShopTexture": "Animals/{{ModID}}-Red-Eyed Tree Frog Icon",
+                    "ShopSourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 32,
+                        "Height": 16
+                    },
+                    "RequiredBuilding": "Coop",
+                    "ShopDisplayName": "Red-Eyed Tree Frog",
+                    "ShopDescription": "These industrious amphibian friends will find ferns and rubies for you!",
+                    "DaysToMature": "1",
+                    "ProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "(O)259"
+                        }
+                    ],
+                    "DeluxeProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "(O)64"
+                        }
+                    ],
+                    "DeluxeProduceMinimumFriendship": 200,
+                    "DeluxeProduceCareDivisor": 4750.0,
+                    "DeluxeProduceLuckMultiplier": 1.01,
+                    "DaysToProduce": "1",
+                    "HarvestType": "DropOvernight",
+                    "HarvestTool": "null",
+                    "Sound": "croak",
+                    "Texture": "Animals/{{ModID}}-Red-Eyed Tree Frog",
+                    "SpriteWidth": "16",
+                    "SpriteHeight": "16",
+                    "SwimOffset": {
+                        "X": 0,
+                        "Y": 112
+                    },
+                    "CanSwim": true,
+                    "ShowInSummitCredits": true
+                }
+            }
+        },
+        {
+            "LogName": "Load data for Clown Tree Frog",
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "Entries": {
+                "Clown Tree Frog": {
+                    "DisplayName": "Clown Tree Frog",
+                    "House": "Coop",
+                    "Gender": "MaleOrFemale",
+                    "PurchasePrice": 1000,
+                    "SellPrice": 2000,
+                    "ShopTexture": "Animals/{{ModID}}-Clown Tree Frog Icon",
+                    "ShopSourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 32,
+                        "Height": 16
+                    },
+                    "RequiredBuilding": "Coop",
+                    "ShopDisplayName": "Clown Tree Frog",
+                    "ShopDescription": "These industrious amphibian friends will find ferns and rare seeds for you!",
+                    "DaysToMature": "1",
+                    "ProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "(O)259"
+                        }
+                    ],
+                    "DeluxeProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "(O)347"
+                        }
+                    ],
+                    "DeluxeProduceMinimumFriendship": 200,
+                    "DeluxeProduceCareDivisor": 4750.0,
+                    "DeluxeProduceLuckMultiplier": 1.01,
+                    "DaysToProduce": "1",
+                    "HarvestType": "DropOvernight",
+                    "HarvestTool": "null",
+                    "Sound": "croak",
+                    "Texture": "Animals/{{ModID}}-Clown Tree Frog",
+                    "SpriteWidth": "16",
+                    "SpriteHeight": "16",
+                    "SwimOffset": {
+                        "X": 0,
+                        "Y": 112
+                    },
+                    "CanSwim": true,
+                    "ShowInSummitCredits": true
+                }
+            }
+        },
+        {
+            "LogName": "Load data for Blue Poison Dart Frog",
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "Entries": {
+                "Blue Poison Dart Frog": {
+                    "DisplayName": "Blue Poison Dart Frog",
+                    "House": "Coop",
+                    "Gender": "MaleOrFemale",
+                    "PurchasePrice": 1000,
+                    "SellPrice": 2000,
+                    "ShopTexture": "Animals/{{ModID}}-Blue Poison Dart Frog Icon",
+                    "ShopSourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 32,
+                        "Height": 16
+                    },
+                    "RequiredBuilding": "Coop",
+                    "ShopDisplayName": "Blue Poison Dart Frog",
+                    "ShopDescription": "These industrious amphibian friends will find purple mushrooms and frozen tears for you!",
+                    "DaysToMature": "1",
+                    "ProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "(O)422"
+                        }
+                    ],
+                    "DeluxeProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "(O)84"
+                        }
+                    ],
+                    "DeluxeProduceMinimumFriendship": 200,
+                    "DeluxeProduceCareDivisor": 4750.0,
+                    "DeluxeProduceLuckMultiplier": 1.01,
+                    "DaysToProduce": "1",
+                    "HarvestType": "DropOvernight",
+                    "HarvestTool": "null",
+                    "Sound": "croak",
+                    "Texture": "Animals/{{ModID}}-Blue Poison Dart Frog",
+                    "SpriteWidth": "16",
+                    "SpriteHeight": "16",
+                    "SwimOffset": {
+                        "X": 0,
+                        "Y": 112
+                    },
+                    "CanSwim": true,
+                    "ShowInSummitCredits": true
+                }
+            }
+        },
+        {
+            "LogName": "Load data for Golden Poison Dart Frog",
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "Entries": {
+                "Golden Poison Dart Frog": {
+                    "DisplayName": "Golden Poison Dart Frog",
+                    "House": "Coop",
+                    "Gender": "MaleOrFemale",
+                    "PurchasePrice": 1000,
+                    "SellPrice": 2000,
+                    "ShopTexture": "Animals/{{ModID}}-Golden Poison Dart Frog Icon",
+                    "ShopSourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 32,
+                        "Height": 16
+                    },
+                    "RequiredBuilding": "Coop",
+                    "ShopDisplayName": "Golden Poison Dart Frog",
+                    "ShopDescription": "These industrious amphibian friends will find red mushrooms and gold ore for you!",
+                    "DaysToMature": "1",
+                    "ProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "(O)420"
+                        }
+                    ],
+                    "DeluxeProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "(O)384"
+                        }
+                    ],
+                    "DeluxeProduceMinimumFriendship": 200,
+                    "DeluxeProduceCareDivisor": 4750.0,
+                    "DeluxeProduceLuckMultiplier": 1.01,
+                    "DaysToProduce": "1",
+                    "HarvestType": "DropOvernight",
+                    "HarvestTool": "null",
+                    "Sound": "croak",
+                    "Texture": "Animals/{{ModID}}-Golden Poison Dart Frog",
+                    "SpriteWidth": "16",
+                    "SpriteHeight": "16",
+                    "SwimOffset": {
+                        "X": 0,
+                        "Y": 112
+                    },
+                    "CanSwim": true,
+                    "ShowInSummitCredits": true
+                }
+            }
+        },
+        {
+            "LogName": "Load data for Strawberry Poison Dart Frog",
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "Entries": {
+                "Strawberry Poison Dart Frog": {
+                    "DisplayName": "Strawberry Poison Dart Frog",
+                    "House": "Coop",
+                    "Gender": "MaleOrFemale",
+                    "PurchasePrice": 1000,
+                    "SellPrice": 2000,
+                    "ShopTexture": "Animals/{{ModID}}-Strawberry Poison Dart Frog Icon",
+                    "ShopSourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 32,
+                        "Height": 16
+                    },
+                    "RequiredBuilding": "Coop",
+                    "ShopDisplayName": "Strawberry Poison Dart Frog",
+                    "ShopDescription": "These industrious amphibian friends will find red mushrooms and strawberry seeds for you!",
+                    "DaysToMature": "1",
+                    "ProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "(O)420"
+                        }
+                    ],
+                    "DeluxeProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "(O)745"
+                        }
+                    ],
+                    "DeluxeProduceMinimumFriendship": 200,
+                    "DeluxeProduceCareDivisor": 4750.0,
+                    "DeluxeProduceLuckMultiplier": 1.01,
+                    "DaysToProduce": "1",
+                    "HarvestType": "DropOvernight",
+                    "HarvestTool": "null",
+                    "Sound": "croak",
+                    "Texture": "Animals/{{ModID}}-Strawberry Poison Dart Frog",
+                    "SpriteWidth": "16",
+                    "SpriteHeight": "16",
+                    "SwimOffset": {
+                        "X": 0,
+                        "Y": 112
+                    },
+                    "CanSwim": true,
+                    "ShowInSummitCredits": true
+                }
+            }
+        },
+        {
+            "LogName": "Load data for Amazonian Poison Dart Frog",
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "Entries": {
+                "Amazonian Poison Dart Frog": {
+                    "DisplayName": "Amazonian Poison Dart Frog",
+                    "House": "Coop",
+                    "Gender": "MaleOrFemale",
+                    "PurchasePrice": 1000,
+                    "SellPrice": 2000,
+                    "ShopTexture": "Animals/{{ModID}}-Amazonian Poison Dart Frog Icon",
+                    "ShopSourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 32,
+                        "Height": 16
+                    },
+                    "RequiredBuilding": "Coop",
+                    "ShopDisplayName": "Amazonian Poison Dart Frog",
+                    "ShopDescription": "These industrious amphibian friends will find red mushrooms and aquamarine for you!",
+                    "DaysToMature": "1",
+                    "ProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "(O)420"
+                        }
+                    ],
+                    "DeluxeProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "(O)62"
+                        }
+                    ],
+                    "DeluxeProduceMinimumFriendship": 200,
+                    "DeluxeProduceCareDivisor": 4750.0,
+                    "DeluxeProduceLuckMultiplier": 1.01,
+                    "DaysToProduce": "1",
+                    "HarvestType": "DropOvernight",
+                    "HarvestTool": "null",
+                    "Sound": "croak",
+                    "Texture": "Animals/{{ModID}}-Amazonian Poison Dart Frog",
+                    "SpriteWidth": "16",
+                    "SpriteHeight": "16",
+                    "SwimOffset": {
+                        "X": 0,
+                        "Y": 112
+                    },
+                    "CanSwim": true,
+                    "ShowInSummitCredits": true
+                }
+            }
+        },
+        {
+            "LogName": "Load data for Purple Fluorescent Frog",
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "Entries": {
+                "Purple Fluorescent Frog": {
+                    "DisplayName": "Purple Fluorescent Frog",
+                    "House": "Coop",
+                    "Gender": "MaleOrFemale",
+                    "PurchasePrice": 1000,
+                    "SellPrice": 2000,
+                    "ShopTexture": "Animals/{{ModID}}-Purple Fluorescent Frog Icon",
+                    "ShopSourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 32,
+                        "Height": 16
+                    },
+                    "RequiredBuilding": "Coop",
+                    "ShopDisplayName": "Purple Fluorescent Frog",
+                    "ShopDescription": "These industrious amphibian friends will find purple mushrooms and amethyst for you!",
+                    "DaysToMature": "1",
+                    "ProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "(O)422"
+                        }
+                    ],
+                    "DeluxeProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "(O)66"
+                        }
+                    ],
+                    "DeluxeProduceMinimumFriendship": 200,
+                    "DeluxeProduceCareDivisor": 4750.0,
+                    "DeluxeProduceLuckMultiplier": 1.01,
+                    "DaysToProduce": "1",
+                    "HarvestType": "DropOvernight",
+                    "HarvestTool": "null",
+                    "Sound": "croak",
+                    "Texture": "Animals/{{ModID}}-Purple Fluorescent Frog",
+                    "SpriteWidth": "16",
+                    "SpriteHeight": "16",
+                    "SwimOffset": {
+                        "X": 0,
+                        "Y": 112
+                    },
+                    "CanSwim": true,
+                    "ShowInSummitCredits": true
+                }
+            }
+        },
+        {
+            "LogName": "Load data for Fire-Bellied Toad",
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "Entries": {
+                "Fire-Bellied Toad": {
+                    "DisplayName": "Fire-Bellied Toad",
+                    "House": "Coop",
+                    "Gender": "MaleOrFemale",
+                    "PurchasePrice": 1000,
+                    "SellPrice": 2000,
+                    "ShopTexture": "Animals/{{ModID}}-Fire-Bellied Toad Icon",
+                    "ShopSourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 32,
+                        "Height": 16
+                    },
+                    "RequiredBuilding": "Coop",
+                    "ShopDisplayName": "Fire-Bellied Toad",
+                    "ShopDescription": "These industrious amphibian friends will find fire quartz and rubies for you!",
+                    "DaysToMature": "1",
+                    "ProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "(O)82"
+                        }
+                    ],
+                    "DeluxeProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "(O)64"
+                        }
+                    ],
+                    "DeluxeProduceMinimumFriendship": 200,
+                    "DeluxeProduceCareDivisor": 4750.0,
+                    "DeluxeProduceLuckMultiplier": 1.01,
+                    "DaysToProduce": "1",
+                    "HarvestType": "DropOvernight",
+                    "HarvestTool": "null",
+                    "Sound": "croak",
+                    "Texture": "Animals/{{ModID}}-Fire-Bellied Toad",
+                    "SpriteWidth": "16",
+                    "SpriteHeight": "16",
+                    "SwimOffset": {
+                        "X": 0,
+                        "Y": 112
+                    },
+                    "CanSwim": true,
+                    "ShowInSummitCredits": true
+                }
+            }
+        },
+        {
+            "LogName": "Load data for Pale Frog",
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "Entries": {
+                "Pale Frog": {
+                    "DisplayName": "Pale Frog",
+                    "House": "Coop",
+                    "Gender": "MaleOrFemale",
+                    "PurchasePrice": 1000,
+                    "SellPrice": 2000,
+                    "ShopTexture": "Animals/{{ModID}}-Pale Frog Icon",
+                    "ShopSourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 32,
+                        "Height": 16
+                    },
+                    "RequiredBuilding": "Coop",
+                    "ShopDisplayName": "Pale Frog",
+                    "ShopDescription": "These industrious amphibian friends will find earth crystals and rare seeds for you!",
+                    "DaysToMature": "1",
+                    "ProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "(O)86"
+                        }
+                    ],
+                    "DeluxeProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "(O)347"
+                        }
+                    ],
+                    "DeluxeProduceMinimumFriendship": 200,
+                    "DeluxeProduceCareDivisor": 4750.0,
+                    "DeluxeProduceLuckMultiplier": 1.01,
+                    "DaysToProduce": "1",
+                    "HarvestType": "DropOvernight",
+                    "HarvestTool": "null",
+                    "Sound": "croak",
+                    "Texture": "Animals/{{ModID}}-Pale Frog",
+                    "SpriteWidth": "16",
+                    "SpriteHeight": "16",
+                    "SwimOffset": {
+                        "X": 0,
+                        "Y": 112
+                    },
+                    "CanSwim": true,
+                    "ShowInSummitCredits": true
+                }
+            }
+        },
+        {
+            "LogName": "Load data for Northern Glass Frog",
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "Entries": {
+                "Northern Glass Frog": {
+                    "DisplayName": "Northern Glass Frog",
+                    "House": "Coop",
+                    "Gender": "MaleOrFemale",
+                    "PurchasePrice": 1000,
+                    "SellPrice": 2000,
+                    "ShopTexture": "Animals/{{ModID}}-Northern Glass Frog Icon",
+                    "ShopSourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 32,
+                        "Height": 16
+                    },
+                    "RequiredBuilding": "Coop",
+                    "ShopDisplayName": "Northern Glass Frog",
+                    "ShopDescription": "These industrious amphibian friends will find quartz and emeralds for you!",
+                    "DaysToMature": "1",
+                    "ProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "(O)80"
+                        }
+                    ],
+                    "DeluxeProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "(O)60"
+                        }
+                    ],
+                    "DeluxeProduceMinimumFriendship": 200,
+                    "DeluxeProduceCareDivisor": 4750.0,
+                    "DeluxeProduceLuckMultiplier": 1.01,
+                    "DaysToProduce": "1",
+                    "HarvestType": "DropOvernight",
+                    "HarvestTool": "null",
+                    "Sound": "croak",
+                    "Texture": "Animals/{{ModID}}-Northern Glass Frog",
+                    "SpriteWidth": "16",
+                    "SpriteHeight": "16",
+                    "SwimOffset": {
+                        "X": 0,
+                        "Y": 112
+                    },
+                    "CanSwim": true,
+                    "ShowInSummitCredits": true
+                }
+            }
+        },
+        {
+            "LogName": "Load data for Desert Rain Frog",
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "Entries": {
+                "Desert Rain Frog": {
+                    "DisplayName": "Desert Rain Frog",
+                    "House": "Coop",
+                    "Gender": "MaleOrFemale",
+                    "PurchasePrice": 1000,
+                    "SellPrice": 2000,
+                    "ShopTexture": "Animals/{{ModID}}-Desert Rain Frog Icon",
+                    "ShopSourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 32,
+                        "Height": 16
+                    },
+                    "RequiredBuilding": "Coop",
+                    "ShopDisplayName": "Desert Rain Frog",
+                    "ShopDescription": "These industrious amphibian friends will find cactus fruit and rainbow shells for you!",
+                    "DaysToMature": "1",
+                    "ProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "(O)90"
+                        }
+                    ],
+                    "DeluxeProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "(O)394"
+                        }
+                    ],
+                    "DeluxeProduceMinimumFriendship": 200,
+                    "DeluxeProduceCareDivisor": 4750.0,
+                    "DeluxeProduceLuckMultiplier": 1.01,
+                    "DaysToProduce": "1",
+                    "HarvestType": "DropOvernight",
+                    "HarvestTool": "null",
+                    "Sound": "croak",
+                    "Texture": "Animals/{{ModID}}-Desert Rain Frog",
+                    "SpriteWidth": "16",
+                    "SpriteHeight": "16",
+                    "SwimOffset": {
+                        "X": 0,
+                        "Y": 112
+                    },
+                    "CanSwim": true,
+                    "ShowInSummitCredits": true
+                }
+            }
+        },
+        {
+            "LogName": "Load data for Vietnamese Mossy Frog",
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "Entries": {
+                "Vietnamese Mossy Frog": {
+                    "DisplayName": "Vietnamese Mossy Frog",
+                    "House": "Coop",
+                    "Gender": "MaleOrFemale",
+                    "PurchasePrice": 1000,
+                    "SellPrice": 2000,
+                    "ShopTexture": "Animals/{{ModID}}-Vietnamese Mossy Frog Icon",
+                    "ShopSourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 32,
+                        "Height": 16
+                    },
+                    "RequiredBuilding": "Coop",
+                    "ShopDisplayName": "Vietnamese Mossy Frog",
+                    "ShopDescription": "These industrious amphibian friends will find moss and emeralds for you!",
+                    "DaysToMature": "1",
+                    "ProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "(O)Moss"
+                        }
+                    ],
+                    "DeluxeProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "(O)MossySeed"
+                        }
+                    ],
+                    "DeluxeProduceMinimumFriendship": 200,
+                    "DeluxeProduceCareDivisor": 4750.0,
+                    "DeluxeProduceLuckMultiplier": 1.01,
+                    "DaysToProduce": "1",
+                    "HarvestType": "DropOvernight",
+                    "HarvestTool": "null",
+                    "Sound": "croak",
+                    "Texture": "Animals/{{ModID}}-Vietnamese Mossy Frog",
+                    "SpriteWidth": "16",
+                    "SpriteHeight": "16",
+                    "SwimOffset": {
+                        "X": 0,
+                        "Y": 112
+                    },
+                    "CanSwim": true,
+                    "ShowInSummitCredits": true
+                }
+            }
+        },
+        {
+            "LogName": "Load data for Amazon Milk Frog",
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "Entries": {
+                "Amazon Milk Frog": {
+                    "DisplayName": "Amazon Milk Frog",
+                    "House": "Coop",
+                    "Gender": "MaleOrFemale",
+                    "PurchasePrice": 1000,
+                    "SellPrice": 2000,
+                    "ShopTexture": "Animals/{{ModID}}-Amazon Milk Frog Icon",
+                    "ShopSourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 32,
+                        "Height": 16
+                    },
+                    "RequiredBuilding": "Coop",
+                    "ShopDisplayName": "Amazon Milk Frog",
+                    "ShopDescription": "These industrious amphibian friends will find milk for you!",
+                    "DaysToMature": "1",
+                    "ProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "(O)184"
+                        }
+                    ],
+                    "DeluxeProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "(O)186"
+                        }
+                    ],
+                    "DeluxeProduceMinimumFriendship": 200,
+                    "DeluxeProduceCareDivisor": 4750.0,
+                    "DeluxeProduceLuckMultiplier": 1.01,
+                    "DaysToProduce": "1",
+                    "HarvestType": "DropOvernight",
+                    "HarvestTool": "null",
+                    "Sound": "croak",
+                    "Texture": "Animals/{{ModID}}-Amazon Milk Frog",
+                    "SpriteWidth": "16",
+                    "SpriteHeight": "16",
+                    "SwimOffset": {
+                        "X": 0,
+                        "Y": 112
+                    },
+                    "CanSwim": true,
+                    "ShowInSummitCredits": true
+                }
+            }
+        },
+        {
+            "LogName": "Load adultSprite for American Green Tree Frog",
+            "Action": "Load",
+            "Target": "Animals/{{ModID}}-American Green Tree Frog",
+            "FromFile": "assets/AmericanGreenTreeFrog.png"
+        },
+        {
+            "LogName": "Load shopIcon for American Green Tree Frog",
+            "Action": "Load",
+            "Target": "Animals/{{ModID}}-American Green Tree Frog Icon",
+            "FromFile": "assets/AmericanGreenTreeFrogIcon.png"
+        },
+        {
+            "LogName": "Load adultSprite for Red-Eyed Tree Frog",
+            "Action": "Load",
+            "Target": "Animals/{{ModID}}-Red-Eyed Tree Frog",
+            "FromFile": "assets/RedEyedTreeFrog.png"
+        },
+        {
+            "LogName": "Load shopIcon for Red-Eyed Tree Frog",
+            "Action": "Load",
+            "Target": "Animals/{{ModID}}-Red-Eyed Tree Frog Icon",
+            "FromFile": "assets/RedEyedTreeFrogIcon.png"
+        },
+        {
+            "LogName": "Load adultSprite for Clown Tree Frog",
+            "Action": "Load",
+            "Target": "Animals/{{ModID}}-Clown Tree Frog",
+            "FromFile": "assets/ClownTreeFrog.png"
+        },
+        {
+            "LogName": "Load shopIcon for Clown Tree Frog",
+            "Action": "Load",
+            "Target": "Animals/{{ModID}}-Clown Tree Frog Icon",
+            "FromFile": "assets/ClownTreeFrogIcon.png"
+        },
+        {
+            "LogName": "Load adultSprite for Blue Poison Dart Frog",
+            "Action": "Load",
+            "Target": "Animals/{{ModID}}-Blue Poison Dart Frog",
+            "FromFile": "assets/BluePoisonDartFrog.png"
+        },
+        {
+            "LogName": "Load shopIcon for Blue Poison Dart Frog",
+            "Action": "Load",
+            "Target": "Animals/{{ModID}}-Blue Poison Dart Frog Icon",
+            "FromFile": "assets/BluePoisonDartFrogIcon.png"
+        },
+        {
+            "LogName": "Load adultSprite for Golden Poison Dart Frog",
+            "Action": "Load",
+            "Target": "Animals/{{ModID}}-Golden Poison Dart Frog",
+            "FromFile": "assets/GoldenPoisonDartFrog.png"
+        },
+        {
+            "LogName": "Load shopIcon for Golden Poison Dart Frog",
+            "Action": "Load",
+            "Target": "Animals/{{ModID}}-Golden Poison Dart Frog Icon",
+            "FromFile": "assets/GoldenPoisonDartFrogIcon.png"
+        },
+        {
+            "LogName": "Load adultSprite for Strawberry Poison Dart Frog",
+            "Action": "Load",
+            "Target": "Animals/{{ModID}}-Strawberry Poison Dart Frog",
+            "FromFile": "assets/StrawberryPoisonDartFrog.png"
+        },
+        {
+            "LogName": "Load shopIcon for Strawberry Poison Dart Frog",
+            "Action": "Load",
+            "Target": "Animals/{{ModID}}-Strawberry Poison Dart Frog Icon",
+            "FromFile": "assets/StrawberryPoisonDartFrogIcon.png"
+        },
+        {
+            "LogName": "Load adultSprite for Amazonian Poison Dart Frog",
+            "Action": "Load",
+            "Target": "Animals/{{ModID}}-Amazonian Poison Dart Frog",
+            "FromFile": "assets/AmazonianPoisonDartFrog.png"
+        },
+        {
+            "LogName": "Load shopIcon for Amazonian Poison Dart Frog",
+            "Action": "Load",
+            "Target": "Animals/{{ModID}}-Amazonian Poison Dart Frog Icon",
+            "FromFile": "assets/AmazonianPoisonDartFrogIcon.png"
+        },
+        {
+            "LogName": "Load adultSprite for Purple Fluorescent Frog",
+            "Action": "Load",
+            "Target": "Animals/{{ModID}}-Purple Fluorescent Frog",
+            "FromFile": "assets/PurpleFluorescentFrog.png"
+        },
+        {
+            "LogName": "Load shopIcon for Purple Fluorescent Frog",
+            "Action": "Load",
+            "Target": "Animals/{{ModID}}-Purple Fluorescent Frog Icon",
+            "FromFile": "assets/PurpleFluorescentFrogIcon.png"
+        },
+        {
+            "LogName": "Load adultSprite for Fire-Bellied Toad",
+            "Action": "Load",
+            "Target": "Animals/{{ModID}}-Fire-Bellied Toad",
+            "FromFile": "assets/FireBelliedToad.png"
+        },
+        {
+            "LogName": "Load shopIcon for Fire-Bellied Toad",
+            "Action": "Load",
+            "Target": "Animals/{{ModID}}-Fire-Bellied Toad Icon",
+            "FromFile": "assets/FireBelliedToadIcon.png"
+        },
+        {
+            "LogName": "Load adultSprite for Pale Frog",
+            "Action": "Load",
+            "Target": "Animals/{{ModID}}-Pale Frog",
+            "FromFile": "assets/PaleFrog.png"
+        },
+        {
+            "LogName": "Load shopIcon for Pale Frog",
+            "Action": "Load",
+            "Target": "Animals/{{ModID}}-Pale Frog Icon",
+            "FromFile": "assets/PaleFrogIcon.png"
+        },
+        {
+            "LogName": "Load adultSprite for Northern Glass Frog",
+            "Action": "Load",
+            "Target": "Animals/{{ModID}}-Northern Glass Frog",
+            "FromFile": "assets/NorthernGlassFrog.png"
+        },
+        {
+            "LogName": "Load shopIcon for Northern Glass Frog",
+            "Action": "Load",
+            "Target": "Animals/{{ModID}}-Northern Glass Frog Icon",
+            "FromFile": "assets/NorthernGlassFrogIcon.png"
+        },
+        {
+            "LogName": "Load adultSprite for Desert Rain Frog",
+            "Action": "Load",
+            "Target": "Animals/{{ModID}}-Desert Rain Frog",
+            "FromFile": "assets/DesertRainFrog.png"
+        },
+        {
+            "LogName": "Load shopIcon for Desert Rain Frog",
+            "Action": "Load",
+            "Target": "Animals/{{ModID}}-Desert Rain Frog Icon",
+            "FromFile": "assets/DesertRainFrogIcon.png"
+        },
+        {
+            "LogName": "Load adultSprite for Vietnamese Mossy Frog",
+            "Action": "Load",
+            "Target": "Animals/{{ModID}}-Vietnamese Mossy Frog",
+            "FromFile": "assets/VietnameseMossyFrog.png"
+        },
+        {
+            "LogName": "Load shopIcon for Vietnamese Mossy Frog",
+            "Action": "Load",
+            "Target": "Animals/{{ModID}}-Vietnamese Mossy Frog Icon",
+            "FromFile": "assets/VietnameseMossyFrogIcon.png"
+        },
+        {
+            "LogName": "Load adultSprite for Amazon Milk Frog",
+            "Action": "Load",
+            "Target": "Animals/{{ModID}}-Amazon Milk Frog",
+            "FromFile": "assets/AmazonMilkFrog.png"
+        },
+        {
+            "LogName": "Load shopIcon for Amazon Milk Frog",
+            "Action": "Load",
+            "Target": "Animals/{{ModID}}-Amazon Milk Frog Icon",
+            "FromFile": "assets/AmazonMilkFrogIcon.png"
+        }
+    ]
+}

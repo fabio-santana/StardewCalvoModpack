@@ -1,0 +1,15 @@
+{
+   "Name": "Vanilla Kittens",
+   "Author": "DellyBelly",
+   "Version": "1.0.0",
+   "Description": "A CP replacement to make vanilla cats into kittens",
+   "UniqueID": "DellyBelly.VanillaKittens",
+   "UpdateKeys": [ "Nexus:20970" ],
+   "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+	},
+	"Dependencies": [
+   {
+      "UniqueID": "DellyBelly.BabyPets"
+   }]
+}
